@@ -4,5 +4,5 @@
 
 - 详情请见：[issues](https://github.com/superleeyom/blog/issues)
 - 点击关注：[watch](https://github.com/superleeyom/blog/subscription)
-- 新网站：http://www.leeyom.top/blog
+- 新站点：http://www.leeyom.top/blog
 - 旧站点：[www.leeyom.top](http://www.leeyom.top/)，旧站点后期不准备维护了，以后都在这个仓库的[issue](https://github.com/superleeyom/blog/issues)区进行更新
