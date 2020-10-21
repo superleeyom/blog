@@ -162,3 +162,31 @@ http {
   ```
 
   用户只能访问此路径`/home/leeyom/files/img/`下的文件。
+
+## nginx跨域配置
+
+在 `server` 块里面增加：
+
+```nginx
+# 允许跨域请求的域，*代表允许所有的域
+add_header 'Access-Control-Allow-Origin' *;
+# 允许带上cookie请求
+add_header 'Access-Control-Allow-Credentials' 'true';
+# 允许请求的header，比如：Authorization,Content-Type,Accept,Origin,User-Agent 等
+add_header 'Access-Control-Allow-Headers' *;
+# 允许请求的方法，比如：GET、POST、PUT、DELETE
+add_header 'Access-Control-Allow-Methods' *;
+```
+
+## nginx防盗链
+
+```nginx
+# 对源站点进行验证（白名单），多个域名用空格隔开
+valid_referers *.leeyom.com;
+# 非法访问则返回403
+if($invalid_referer){
+	return 403;  
+}
+```
+
+
