@@ -44,8 +44,8 @@ pid        /var/run/nginx.pid;
 
 # 设置工作模式
 events {
-  	# 每个worker允许连接的客户最大连接数
-    worker_connections  1024;
+	# 每个worker允许连接的客户最大连接数
+	worker_connections  1024;
 }
 
 # http 是指令块，针对http网络传输的一些指令配置
