@@ -50,38 +50,38 @@ events {
 
 # http 是指令块，针对http网络传输的一些指令配置
 http {
-  	# include 引入外部配置，提高可读性，避免单个配置文件过大
-    include /etc/nginx/mime.types;
-  	# 设置HTTP默认的 content-type
-    default_type  application/octet-stream;
-    # 设置日志格式，各项含义如下：
-    # $remote_addr：客户端ip
-  	# $remote_user：远程客户端用户名，一般为：’-’
-  	# $time_local：时间和时区
-  	# $request：请求的url以及method
-  	# $status：响应状态码
-  	# $body_bytes_send：响应客户端内容字节数
-  	# $http_referer：记录用户从哪个链接跳转过来的
-  	# $http_user_agent：用户所使用的代理，一般来时都是浏览器
-  	# $http_x_forwarded_for：通过代理服务器来记录客户端的ip
-    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+	# include 引入外部配置，提高可读性，避免单个配置文件过大
+	include /etc/nginx/mime.types;
+	# 设置HTTP默认的 content-type
+	default_type  application/octet-stream;
+	# 设置日志格式，各项含义如下：
+	# $remote_addr：客户端ip
+	# $remote_user：远程客户端用户名，一般为：’-’
+	# $time_local：时间和时区
+	# $request：请求的url以及method
+	# $status：响应状态码
+	# $body_bytes_send：响应客户端内容字节数
+	# $http_referer：记录用户从哪个链接跳转过来的
+	# $http_user_agent：用户所使用的代理，一般来时都是浏览器
+	# $http_x_forwarded_for：通过代理服务器来记录客户端的ip
+	log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
                       '$status $body_bytes_sent "$http_referer" '
                       '"$http_user_agent" "$http_x_forwarded_for"';
 
-    access_log  /var/log/nginx/access.log  main;
+	access_log  /var/log/nginx/access.log  main;
 
-		# sendfile 使用高效的文件传输，提升传输性能，启用后才能使用tcp_nopush，指当数据表累积到一定的大小后才发送，提高效率
-    sendfile        on;
-    #tcp_nopush     on;
+	# sendfile 使用高效的文件传输，提升传输性能，启用后才能使用tcp_nopush，指当数据表累积到一定的大小后才发送，提高效率
+	sendfile        on;
+	#tcp_nopush     on;
 		
-  	# 设置客户端与服务端请求的超时时间，保证客户端多次请求的时候不会重复建立新的连接，节约资源损耗
-    keepalive_timeout  65;
+	# 设置客户端与服务端请求的超时时间，保证客户端多次请求的时候不会重复建立新的连接，节约资源损耗
+	keepalive_timeout  65;
 		
-  	# 开启gzip压缩功能，提高传输效率，节约带宽
-    #gzip  on;
+	# 开启gzip压缩功能，提高传输效率，节约带宽
+	#gzip  on;
 		
-  	# include 引入外部配置，提高可读性，避免单个配置文件过大
-    include /etc/nginx/conf.d/*.conf;
+	# include 引入外部配置，提高可读性，避免单个配置文件过大
+	include /etc/nginx/conf.d/*.conf;
 }
 ```
 
