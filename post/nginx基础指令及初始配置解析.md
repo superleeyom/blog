@@ -189,4 +189,51 @@ if($invalid_referer){
 }
 ```
 
+## nginx搭建Tomcat集群简版配置
+
+```nginx
+upstream tomcats {
+  server 192.168.1.174:8080;
+  server 192.168.1.175:8080;
+  server 192.168.1.176:8080;
+}
+server {
+  listen 80;
+  server_name www.tomcats.com;
+  location / {
+    proxy_pass: http://tomcats;
+  }
+}
+```
+
+访问`www.tomcats.com`，将以轮询方式，分别访问三台 Tomcat，当然也可以使用加权轮询，例如：
+
+```nginx
+server 192.168.1.174:8080 weight=1;
+server 192.168.1.175:8080 weight=2;
+server 192.168.1.176:8080 weight=5;
+```
+
+`weight`的值越大，当前服务器的Tomcat被访问的几率越大。
+
+## upstream 指令
+
+```nginx
+server 192.168.1.174:8080 max_conns=2;
+server 192.168.1.175:8080 max_conns=2;
+server 192.168.1.176:8080 max_conns=2;
+```
+
+- `max_conns`：限制每台server的连接数，用于保护避免过载，可起到限流作用；
+
+```nginx
+server 192.168.1.174:8080 weight=1;
+server 192.168.1.175:8080 weight=2;
+server 192.168.1.176:8080 weight=5 slow_start=60s;
+```
+
+- `slow_start`：缓慢启动，`weight`逐渐增大，使某台服务器慢慢加入集群，方便该服务器完成一些前置化的操作，该指令需要注意：
+  - 只能在商业版中使用；
+  - 该参数不能使用在`hash`和`random load balancing`中；
+  - 如果upstream中只有一台server，则该参数无效；
 
