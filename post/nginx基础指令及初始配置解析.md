@@ -87,7 +87,7 @@ http {
 
 
 
-## root与alias
+## root 与 alias
 
 假如服务器路径为：`/home/leeyom/files/img/header.png`
 
@@ -111,7 +111,7 @@ http {
 
   用户访问的请求为：`url:port/hello/files/img/header.png`，相当于给 `leeyom` 目录做一个别名。
 
-## location的匹配规则
+## location 的匹配规则
 
 - `空格`：默认匹配，普通匹配
 
@@ -163,7 +163,7 @@ http {
 
   用户只能访问此路径`/home/leeyom/files/img/`下的文件。
 
-## nginx跨域配置
+## nginx 跨域配置
 
 在 `server` 块里面增加：
 
@@ -178,7 +178,7 @@ add_header 'Access-Control-Allow-Headers' *;
 add_header 'Access-Control-Allow-Methods' *;
 ```
 
-## nginx防盗链
+## nginx 防盗链
 
 ```nginx
 # 对源站点进行验证（白名单），多个域名用空格隔开
@@ -189,7 +189,7 @@ if($invalid_referer){
 }
 ```
 
-## nginx搭建Tomcat集群简版配置
+## nginx 搭建 Tomcat 集群简版配置
 
 ```nginx
 upstream tomcats {
@@ -214,7 +214,7 @@ server 192.168.1.175:8080 weight=2;
 server 192.168.1.176:8080 weight=5;
 ```
 
-`weight`的值越大，当前服务器的Tomcat被访问的几率越大。
+`weight`的值越大，当前服务器的 Tomcat 被访问的几率越大。
 
 ## upstream 指令
 
@@ -235,5 +235,34 @@ server 192.168.1.176:8080 weight=5 slow_start=60s;
 - `slow_start`：缓慢启动，`weight`逐渐增大，使某台服务器慢慢加入集群，方便该服务器完成一些前置化的操作，该指令需要注意：
   - 只能在商业版中使用；
   - 该参数不能使用在`hash`和`random load balancing`中；
-  - 如果upstream中只有一台server，则该参数无效；
+  - 如果upstream中只有一台 server，则该参数无效；
+- `down`：标记服务节点不可用
+- `backup`：表示当前服务器节点是备用机， 只有在其他的服务器都宕机以后， 自己才会加入到集群中， 被用户访问到
+  - `backup`参数不能使用在`hash`和`random load balancing`中；
+- `max_fails`：表示失败几次，则标记 server 已宕机，踢出服务，默认值为1
+- `fail_timeout`：表示失败的重试时间，默认值 10s
+  - 示例：`max_fails=2 fail_timeout=15s `：15 秒内，请求某一 server 失败达 2 次后，则认为此 server 已经宕机，随后再过 15 秒，这 15 秒内不会有新的请求到达刚宕机的节点，会请求到正常的运行的 server，15秒后会有新请求再次请求挂掉的 server，如果还是失败，重复之前的操作；
+
+## Keepalived 提高吞吐量
+
+```nginx
+upstream tomcats {
+  server 192.168.1.174:8080;
+  server 192.168.1.175:8080;
+  server 192.168.1.176:8080;
+  # 设置长连接处理的数量
+  keepalive 32;
+}
+server {
+  listen 80;
+  server_name www.tomcats.com;
+  location / {
+    proxy_pass: http://tomcats;
+    # 设置长连接http的版本号
+    proxy_http_version 1.1;
+    # 清除 connection header 信息
+    proxy_set_header Connection "";
+  }
+}
+```
 
