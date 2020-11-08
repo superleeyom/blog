@@ -1,8 +1,15 @@
-# Issue Blog
-
-博客仓库，用于记录一些幼稚的想法和脑残的瞬间，写在 issues 当中。
-
-- 详情请见：[issues](https://github.com/superleeyom/blog/issues)
-- 点击关注：[watch](https://github.com/superleeyom/blog/subscription)
-- 新站点：http://www.leeyom.top/blog
-- 旧站点：[www.leeyom.top](http://www.leeyom.top/)，旧站点后期不准备维护了，以后都在这个仓库的[issue](https://github.com/superleeyom/blog/issues)区进行更新
+## Gitblog
+My personal blog using issues and GitHub Actions
+## 最近更新
+- [nginx负载均衡原理之ip_hash哈希算法探究](https://github.com/superleeyom/blog/issues/5)--2020-11-05
+- [nginx基础指令及初始配置解析](https://github.com/superleeyom/blog/issues/4)--2020-10-20
+- [白话解说之 BIO、NIO、AIO、异步阻塞的区别](https://github.com/superleeyom/blog/issues/3)--2020-10-17
+- [Java8函数式编程中比较实用的操作语法](https://github.com/superleeyom/blog/issues/2)--2020-10-09
+- [Java泛型的回顾之旅](https://github.com/superleeyom/blog/issues/1)--2020-10-09
+## Java
+- [白话解说之 BIO、NIO、AIO、异步阻塞的区别](https://github.com/superleeyom/blog/issues/3)--2020-10-17
+- [Java8函数式编程中比较实用的操作语法](https://github.com/superleeyom/blog/issues/2)--2020-10-09
+- [Java泛型的回顾之旅](https://github.com/superleeyom/blog/issues/1)--2020-10-09
+## nginx
+- [nginx负载均衡原理之ip_hash哈希算法探究](https://github.com/superleeyom/blog/issues/5)--2020-11-05
+- [nginx基础指令及初始配置解析](https://github.com/superleeyom/blog/issues/4)--2020-10-20
