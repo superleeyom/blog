@@ -287,3 +287,31 @@ location / {
 }
 ```
 
+## 配置ssl证书
+
+1. 安装 ssl 模块
+
+2. 将 ssl 证书`*.crt`和私钥`*.key`拷贝到`/usr/local/nginx/conf`目录中
+
+3. 新增 server 监控 443 端口：
+
+   ```nginx
+   server{
+     listen 443;
+     server_name www.leeyom.me;
+     # 开启ssl
+     ssl on;
+     # 配置ssl证书
+     ssl_certificate yourdomain.com.crt;
+   	# 配置证书秘钥
+     ssl_certificate_key yourdomain.com.key;
+     # ssl会话cache
+     ssl_session_cache shared:SSL:1m;
+  # ssl会话超时时间
+     ssl_session_timeout 5m;
+   	# 配置加密套件，写法遵循 openssl 标准
+     ssl_protocols TLSv1 TLSv1.1 TLSv1.2; ssl_ciphers ECDHE-RSA-AES128-G
+   }
+   ```
+   
+   
