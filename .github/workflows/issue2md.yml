@@ -47,5 +47,5 @@ jobs:
           commit-message: "backup issue"
           files: backup
           rebase: 'true'
-          name: egolearner 
-          email: lijiliang@outlook.com
+          name: superleeyom 
+          email: 635709492@qq.com
