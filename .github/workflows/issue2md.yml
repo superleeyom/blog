@@ -32,13 +32,13 @@ jobs:
           python -m pip install --upgrade pip
           python -m venv venv
           source venv/bin/activate
-          pip install -r tools/requirements.txt
+          pip install -r requirements.txt
         if: steps.pip-cache.outputs.cache-hit != 'true'
 
       - name: Generate new md
         run: |
           source venv/bin/activate
-          python tools/issue2md.py ${{ secrets.GT }} ${{ github.repository }} ${{ github.event.issue.number }}
+          python issue2md.py ${{ secrets.GT }} ${{ github.repository }} ${{ github.event.issue.number }}
         
       - name: Push
         uses: github-actions-x/commit@v2.6
