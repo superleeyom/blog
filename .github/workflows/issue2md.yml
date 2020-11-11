@@ -1,18 +1,15 @@
-name: Generate GitBlog README
+name: Backup issue
 
 on:
   workflow_dispatch:
   issues:
     types: [opened, edited]
-  push:
-    branches:
-      - master
-    paths:
-      - main.py
+  issue_comment:
+    types: [created, edited]
 
 jobs:
   sync:
-    name: Generate README
+    name: Backup issue
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -30,26 +27,25 @@ jobs:
           key: pip-1-${{ hashFiles('**/requirements.txt') }}
           restore-keys: |
             pip-
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           python -m venv venv
           source venv/bin/activate
-          pip install -r requirements.txt
+          pip install -r tools/requirements.txt
         if: steps.pip-cache.outputs.cache-hit != 'true'
 
       - name: Generate new md
         run: |
           source venv/bin/activate
-          python main.py ${{ secrets.G_T }} ${{ github.repository }}
+          python tools/issue2md.py ${{ secrets.GT }} ${{ github.repository }} ${{ github.event.issue.number }}
         
-      - name: Push README
+      - name: Push
         uses: github-actions-x/commit@v2.6
         with:
-          github-token: ${{ secrets.G_T }}
-          commit-message: "Refresh README"
-          files: README.md
+          github-token: ${{ secrets.GT }}
+          commit-message: "backup issue"
+          files: backup
           rebase: 'true'
-          name: superleeyom 
-          email: 635709492@qq.com
+          name: egolearner 
+          email: lijiliang@outlook.com
