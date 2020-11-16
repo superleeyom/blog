@@ -1,7 +1,6 @@
 name: Backup issue
 
 on:
-  workflow_dispatch:
   issues:
     types: [opened, edited]
   issue_comment:
@@ -38,12 +37,12 @@ jobs:
       - name: Generate new md
         run: |
           source venv/bin/activate
-          python issue2md.py ${{ secrets.GT }} ${{ github.repository }} ${{ github.event.issue.number }}
+          python issue2md.py ${{ secrets.G_T }} ${{ github.repository }} ${{ github.event.issue.number }}
         
       - name: Push
         uses: github-actions-x/commit@v2.6
         with:
-          github-token: ${{ secrets.GT }}
+          github-token: ${{ secrets.G_T }}
           commit-message: "backup issue"
           files: backup
           rebase: 'true'
