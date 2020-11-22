@@ -6,7 +6,7 @@ on:
     types: [opened, edited]
   push:
     branches:
-      - master
+      - main
     paths:
       - main.py
 
