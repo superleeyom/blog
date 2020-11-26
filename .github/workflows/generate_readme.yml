@@ -1,14 +1,20 @@
-name: Generate Blog README
+name: Generate GitBlog README
 
 on:
   workflow_dispatch:
   issues:
     types: [opened, edited]
+  issue_comment:
+    types: [created, edited]
   push:
     branches:
       - main
     paths:
       - main.py
+
+env:
+  GITHUB_NAME: superleeyom
+  GITHUB_EMAIL: 635709492@qq.com
 
 jobs:
   sync:
@@ -42,14 +48,14 @@ jobs:
       - name: Generate new md
         run: |
           source venv/bin/activate
-          python main.py ${{ secrets.G_T }} ${{ github.repository }}
+          python main.py ${{ secrets.G_T }} ${{ github.repository }} --issue_numbe '${{ github.event.issue.number }}'
         
       - name: Push README
         uses: github-actions-x/commit@v2.6
         with:
           github-token: ${{ secrets.G_T }}
-          commit-message: "Refresh README"
-          files: README.md
+          commit-message: "Refresh README AND BACKUP"
+          files: README.md backup/
           rebase: 'true'
-          name: superleeyom 
-          email: 635709492@qq.com
+          name: ${{ env.GITHUB_NAME }}
+          email: ${{ env.GITHUB_EMAIL }}
