@@ -290,7 +290,7 @@ Keepalived 是基于 [vrrp 协议](https://www.jianshu.com/p/7410507d57c3)的一
 
 - 以上便是模拟的`nginx-keepalived`双机热备机制，到此，所有的验证和预期的一致，也达到我们借助`docker`为基础来实现了整套基于`Nginx+Keepalived`高可用的方案了。
 
-### keepalived服务命令
+### keepalived 服务命令
 
 - `systemctl daemon-reload`：重新加载
 - `systemctl enable keepalived.service`： 设置开机自动启动
