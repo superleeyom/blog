@@ -1,5 +1,5 @@
-## Gitblog
-My personal blog using issues and GitHub Actions
+## Leeyom's Blog
+我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~
 ## 最近更新
 - [基于Docker实现nginx-keepalived双机热备机制](https://github.com/superleeyom/blog/issues/8)--2020-11-23
 - [《睡眠革命》读书笔记](https://github.com/superleeyom/blog/issues/7)--2020-11-22
