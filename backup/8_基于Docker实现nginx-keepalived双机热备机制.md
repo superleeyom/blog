@@ -4,7 +4,7 @@
 
 ### LVS
 
-LVS 是一个开源的软件，可以实现**传输层四层负载均衡**。LVS 是 Linux Virtual Server 的缩写，意思是 Linux 虚拟服务器。目前有三种 IP 负载均衡技术（VS/NAT、VS/TUN和VS/DR）；八种调度算法（rr,wrr,lc,wlc,lblc,lblcr,dh,sh）。
+LVS 是一个开源的软件，可以实现**传输层四层负载均衡**。LVS 是 Linux Virtual Server 的缩写，意思是 Linux 虚拟服务器。目前有三种 IP 负载均衡技术（VS/NAT、VS/TUN和VS/DR）；八种调度算法：轮询、加权轮询、源地址散列、目标地址散列、最小连接数、加权最少连接数、最短期望延迟、最少队列调度。
 
 - NAT：![](https://raw.githubusercontent.com/superleeyom/blog/main/img/20201122173132.png)
 - TUN：![](https://raw.githubusercontent.com/superleeyom/blog/main/img/20201122173313.png)
