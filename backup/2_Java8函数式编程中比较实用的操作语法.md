@@ -138,7 +138,7 @@ System.out.println(JSONUtil.toJsonStr(map));
 ```
 采用Java8函数式编程的 `toMap` 语法进行快速分组：
 ```java
-Map<Long, Student> studentMap = list.stream().collect(toMap(Student::getUserId, student -> student, (k1, k2) -> k1));
+Map<Long, Student> studentMap = list.stream().collect(Collectors.toMap(Student::getUserId, student -> student, (k1, k2) -> k1));
 ```
 
 ## 对集合中重复的元素进行去重
