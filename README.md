@@ -1,7 +1,7 @@
 ## Leeyom's Blog
 我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~
 ## 最近更新
-- [关于Redis缓存穿透、缓存雪崩、缓存击穿问题探讨](https://github.com/superleeyom/blog/issues/13)--2020-12-23
+- [关于Redis缓存穿透、缓存雪崩、缓存击穿问题探究](https://github.com/superleeyom/blog/issues/13)--2020-12-23
 - [5分钟快速理解Redis的内存回收机制](https://github.com/superleeyom/blog/issues/12)--2020-12-16
 - [同一浏览器不同用户登录冲突问题探究](https://github.com/superleeyom/blog/issues/11)--2020-12-13
 - [GitHub Actions 实战之Chrome书签同步](https://github.com/superleeyom/blog/issues/10)--2020-12-07
@@ -13,7 +13,7 @@
 - [Java8函数式编程中比较实用的操作语法](https://github.com/superleeyom/blog/issues/2)--2020-10-09
 - [Java泛型的回顾之旅](https://github.com/superleeyom/blog/issues/1)--2020-10-09
 ## Redis
-- [关于Redis缓存穿透、缓存雪崩、缓存击穿问题探讨](https://github.com/superleeyom/blog/issues/13)--2020-12-23
+- [关于Redis缓存穿透、缓存雪崩、缓存击穿问题探究](https://github.com/superleeyom/blog/issues/13)--2020-12-23
 - [5分钟快速理解Redis的内存回收机制](https://github.com/superleeyom/blog/issues/12)--2020-12-16
 - [5分钟快速理解Redis的持久化](https://github.com/superleeyom/blog/issues/9)--2020-12-02
 ## nginx
