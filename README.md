@@ -1,11 +1,11 @@
 ## Leeyom's Blog
 我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~
 ## 最近更新
+- [常用linux进程查询命令](https://github.com/superleeyom/blog/issues/15)--2021-01-03
 - [《失明症漫记》读书笔记](https://github.com/superleeyom/blog/issues/14)--2020-12-31
 - [关于Redis缓存穿透、缓存雪崩、缓存击穿问题探究](https://github.com/superleeyom/blog/issues/13)--2020-12-23
 - [5分钟快速理解Redis的内存回收机制](https://github.com/superleeyom/blog/issues/12)--2020-12-16
 - [同一浏览器不同用户登录冲突问题探究](https://github.com/superleeyom/blog/issues/11)--2020-12-13
-- [GitHub Actions 实战之Chrome书签同步](https://github.com/superleeyom/blog/issues/10)--2020-12-07
 ## Java
 - [同一浏览器不同用户登录冲突问题探究](https://github.com/superleeyom/blog/issues/11)--2020-12-13
 - [GitHub Actions 实战之Chrome书签同步](https://github.com/superleeyom/blog/issues/10)--2020-12-07
@@ -16,6 +16,8 @@
 - [关于Redis缓存穿透、缓存雪崩、缓存击穿问题探究](https://github.com/superleeyom/blog/issues/13)--2020-12-23
 - [5分钟快速理解Redis的内存回收机制](https://github.com/superleeyom/blog/issues/12)--2020-12-16
 - [5分钟快速理解Redis的持久化](https://github.com/superleeyom/blog/issues/9)--2020-12-02
+## linux
+- [常用linux进程查询命令](https://github.com/superleeyom/blog/issues/15)--2021-01-03
 ## nginx
 - [基于Docker实现nginx-keepalived双机热备机制](https://github.com/superleeyom/blog/issues/8)--2020-11-23
 - [nginx负载均衡原理之ip_hash哈希算法探究](https://github.com/superleeyom/blog/issues/5)--2020-11-05
