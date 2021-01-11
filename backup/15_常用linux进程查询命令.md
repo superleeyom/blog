@@ -18,6 +18,8 @@ ps  -ef | grep {pid}
 
 ## 根据端口查看对应进程信息
 
+### Linux
+
 ```shell
 netstat -tunlp | grep {port}
 ```
@@ -31,10 +33,24 @@ tcp6       0      0 :::8080                 :::*                    LISTEN      
 
 则 29150 为当前端口所对应的进程 pid
 
+### MacOS
+
+```sh
+lsof -i tcp:{port}
+```
+
 ## 查看进程pid占用端口情况
+
+### Linux
 
 ```shell
 netstat -nap | grep {pid}
+```
+
+### MacOS
+
+```sh
+lsof -p {pid}|grep LISTEN
 ```
 
 ## 查询僵尸进程
@@ -55,4 +71,3 @@ ps -eo pid,ppid,%mem,%cpu,cmd --sort=-%cpu | head
 # 查看最消耗内存的进程
 ps -eo pid,ppid,%mem,%cpu,cmd --sort=-%mem | head
 ```
-
