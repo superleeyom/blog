@@ -15,7 +15,7 @@
 
 但是很遗憾并没有成功，后面我就没有在弄了。就在这两天，yihong 说他和另外一个网友，搞定了咕咚数据的抓取，所以又开始着手重新尝试。我仔细想了下，我当时的步骤是先创建 `Garmin Connect` 的账号，然后把 gpx 数据上传到佳明，最后再到 `nrc` 上关联 `Garmin`。是不是我的步骤不对？是不是 `Garmin` 是主动把数据推送给 `Nike` 的？所以在我没关联之前，就把数据上传了，没有触发推送？带着这些疑问，所以我又尝试了如下的步骤（最好全程都开启代理的情况下进行）：
 
-1.  创建一个**国区** [garmin connect](https://connect.garmin.cn/) 的账号，非国区可能不太行
+1.  创建一个**国区** [garmin connect](https://connect.garmin.cn/) 的账号，非国区可能不太行，若已有账号不需要重复创建
 2.  在 nrc 上关联 Garmin，出现如下的界面说明绑定成功：
     -  ![关联成功](https://raw.githubusercontent.com/superleeyom/blog/main/img/20210127153147.png)
     -  ![garmin](https://raw.githubusercontent.com/superleeyom/blog/main/img/telegram-cloud-photo-size-5-6089317861500758842-y.jpg)
