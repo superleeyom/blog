@@ -1,3 +1,9 @@
 __pycache__
 nohup.out
 .git-credentials
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
