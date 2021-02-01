@@ -4,7 +4,7 @@
 
 ## 起因
 
-最近也开通了 Netflix，Netflix 其实挺费流量的，为了防止梯子的流量超标，所以打算借助 Github Actions + telegram 做一个简单的监控，整体的思路其实很简单，没啥太大的难度，就是模拟梯子服务网站的登录，然后爬取页面的流量汇总数据，然后每天9点将流量的使用情况发送到 telegram，同时如果可使用的流量少于 20% 的时候，推送报警到 telegram，代码目前放到了 github 上 [proxy-traffic-monitor](https://github.com/superleeyom/proxy-traffic-monitor)，实现细节就不讲了，代码比较简单，直接看代码就行。
+最近也开通了 Netflix，Netflix 其实挺费流量的，为了防止梯子的流量超标，所以打算借助 Github Actions + telegram 做一个简单的监控，整体的思路其实很简单，没啥太大的难度，就是模拟梯子服务网站的登录，然后爬取页面的流量汇总数据，然后每天 9:30 将流量的使用情况发送到 telegram，同时如果可使用的流量少于 20% 的时候，推送报警到 telegram，代码目前放到了 github 上 [proxy-traffic-monitor](https://github.com/superleeyom/proxy-traffic-monitor)，实现细节就不讲了，代码比较简单，直接看代码就行。
 
 ## 开发环境
 
