@@ -4,7 +4,7 @@
 
 ## 起因
 
-最近也开通了 Netflix，Netflix 其实挺费流量的，为了防止梯子的流量超标，所以打算借助 Github Action + telegram 做一个简单的监控，整体的思路其实很简单，没啥太大的难度，就是模拟梯子服务网站的登录，然后爬取页面的流量汇总数据，然后每天9点将流量的使用情况发送到 telegram，同时如果可使用的流量少于 20% 的时候，推送报警到 telegram，代码目前放到了 github 上 [proxy-traffic-monitor](https://github.com/superleeyom/proxy-traffic-monitor)，实现细节就不讲了，代码比较简单，直接看代码就行。
+最近也开通了 Netflix，Netflix 其实挺费流量的，为了防止梯子的流量超标，所以打算借助 Github Actions + telegram 做一个简单的监控，整体的思路其实很简单，没啥太大的难度，就是模拟梯子服务网站的登录，然后爬取页面的流量汇总数据，然后每天9点将流量的使用情况发送到 telegram，同时如果可使用的流量少于 20% 的时候，推送报警到 telegram，代码目前放到了 github 上 [proxy-traffic-monitor](https://github.com/superleeyom/proxy-traffic-monitor)，实现细节就不讲了，代码比较简单，直接看代码就行。
 
 ## 开发环境
 
@@ -64,7 +64,7 @@
       
    - 目前有两个定时，分别是`daily.yml`和`warn.yml`，前者是每天 9:30 点执行一次，汇总流量使用情况发送到 telegram，后者是每隔 2 个小时执行一次，监控可用流量的是否已经少于 20%，若少于 20% 会推送到telegram 进行预警，若要调整时间，可以修改这两个 yml 的 `cron` 表达式。
 
-      - 我这里默认关闭`warn.yml`这个自动化任务了，因为我发现，ByWave 好像已经对对 github action 的 ip做限制了，可能我测试的太频繁了吧😂，自己有需要的再打开这个注释吧
+      - 我这里默认关闭`warn.yml`这个自动化任务了，因为我发现，ByWave 好像已经对对 github actions 的 ip做限制了，可能我测试的太频繁了吧😂，自己有需要的再打开这个注释吧
 
          ```yml
          on:
@@ -73,7 +73,7 @@
          #    - cron: "0 */2 * * *"
          ```
 
-      - ByWave 有防爬虫机制，所以定时任务太频繁，有可能会被限制 ip 地址，导致 github action 自动化执行的时候，无法登录，如果被限制了，可以通过更换代理 ip 的方式：
+      - ByWave 有防爬虫机制，所以定时任务太频繁，有可能会被限制 ip 地址，导致 github actions 自动化执行的时候，无法登录，如果被限制了，可以通过更换代理 ip 的方式：
 
          ```java
          Proxy proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress("xxx.xxx.xxx.xxx", 80));
