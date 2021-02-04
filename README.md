@@ -22,8 +22,6 @@
 - [关于Redis缓存穿透、缓存雪崩、缓存击穿问题探究](https://github.com/superleeyom/blog/issues/13)--2020-12-23
 - [5分钟快速理解Redis的内存回收机制](https://github.com/superleeyom/blog/issues/12)--2020-12-16
 - [5分钟快速理解Redis的持久化](https://github.com/superleeyom/blog/issues/9)--2020-12-02
-## linux
-- [常用linux进程查询命令](https://github.com/superleeyom/blog/issues/15)--2021-01-03
 ## nginx
 - [基于Docker实现nginx-keepalived双机热备机制](https://github.com/superleeyom/blog/issues/8)--2020-11-23
 - [nginx负载均衡原理之ip_hash哈希算法探究](https://github.com/superleeyom/blog/issues/5)--2020-11-05
@@ -31,10 +29,10 @@
 ## 其他
 - [为Git和Maven设置代理加速](https://github.com/superleeyom/blog/issues/20)--2021-02-04
 - [咕咚和keep跑步数据导入Nike Run Club](https://github.com/superleeyom/blog/issues/18)--2021-01-27
+- [常用linux进程查询命令](https://github.com/superleeyom/blog/issues/15)--2021-01-03
+- [Hackintosh黑苹果折腾之旅](https://github.com/superleeyom/blog/issues/6)--2020-11-15
 ## 分布式
 - [主流分布式id方案总结](https://github.com/superleeyom/blog/issues/16)--2021-01-10
 ## 读书笔记
 - [《失明症漫记》读书笔记](https://github.com/superleeyom/blog/issues/14)--2020-12-31
 - [《睡眠革命》读书笔记](https://github.com/superleeyom/blog/issues/7)--2020-11-22
-## 黑苹果
-- [Hackintosh黑苹果折腾之旅](https://github.com/superleeyom/blog/issues/6)--2020-11-15
