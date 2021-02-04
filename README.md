@@ -1,11 +1,11 @@
 ## Leeyom's Blog
 我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~
 ## 最近更新
+- [为Git和Maven设置代理加速](https://github.com/superleeyom/blog/issues/20)--2021-02-04
 - [GitHub Actions 实战之监控梯子流量](https://github.com/superleeyom/blog/issues/19)--2021-02-01
 - [咕咚和keep跑步数据导入Nike Run Club](https://github.com/superleeyom/blog/issues/18)--2021-01-27
 - [redis大key内存分析](https://github.com/superleeyom/blog/issues/17)--2021-01-19
 - [主流分布式id方案总结](https://github.com/superleeyom/blog/issues/16)--2021-01-10
-- [常用linux进程查询命令](https://github.com/superleeyom/blog/issues/15)--2021-01-03
 ## Java
 - [GitHub Actions 实战之监控梯子流量](https://github.com/superleeyom/blog/issues/19)--2021-02-01
 - [同一浏览器不同用户登录冲突问题探究](https://github.com/superleeyom/blog/issues/11)--2020-12-13
@@ -29,6 +29,7 @@
 - [nginx负载均衡原理之ip_hash哈希算法探究](https://github.com/superleeyom/blog/issues/5)--2020-11-05
 - [nginx基础指令及初始配置解析](https://github.com/superleeyom/blog/issues/4)--2020-10-20
 ## 其他
+- [为Git和Maven设置代理加速](https://github.com/superleeyom/blog/issues/20)--2021-02-04
 - [咕咚和keep跑步数据导入Nike Run Club](https://github.com/superleeyom/blog/issues/18)--2021-01-27
 ## 分布式
 - [主流分布式id方案总结](https://github.com/superleeyom/blog/issues/16)--2021-01-10
