@@ -70,4 +70,3 @@
 - 原作者的 [EFI](https://github.com/Good0007/B365ITX-Hackintosh-OC)
 - [opencore-configurator](https://mackie100projects.altervista.org/download-opencore-configurator/)
 - [Hackintool](https://github.com/headkaze/Hackintool/releases)
-
