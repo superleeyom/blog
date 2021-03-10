@@ -1,11 +1,11 @@
 ## Leeyom's Blog
 我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~
 ## 最近更新
+- [《最好的告别》读书笔记](https://github.com/superleeyom/blog/issues/23)--2021-03-10
 - [Maven中关于SNAPSHOT版本的总结](https://github.com/superleeyom/blog/issues/22)--2021-02-24
 - [30岁的槛](https://github.com/superleeyom/blog/issues/21)--2021-02-10
 - [为Git和Maven设置代理加速](https://github.com/superleeyom/blog/issues/20)--2021-02-04
 - [GitHub Actions 实战之监控梯子流量](https://github.com/superleeyom/blog/issues/19)--2021-02-01
-- [咕咚和keep跑步数据导入Nike Run Club](https://github.com/superleeyom/blog/issues/18)--2021-01-27
 ## Java
 - [Maven中关于SNAPSHOT版本的总结](https://github.com/superleeyom/blog/issues/22)--2021-02-24
 - [GitHub Actions 实战之监控梯子流量](https://github.com/superleeyom/blog/issues/19)--2021-02-01
@@ -36,5 +36,6 @@
 ## 分布式
 - [主流分布式id方案总结](https://github.com/superleeyom/blog/issues/16)--2021-01-10
 ## 读书笔记
+- [《最好的告别》读书笔记](https://github.com/superleeyom/blog/issues/23)--2021-03-10
 - [《失明症漫记》读书笔记](https://github.com/superleeyom/blog/issues/14)--2020-12-31
 - [《睡眠革命》读书笔记](https://github.com/superleeyom/blog/issues/7)--2020-11-22
