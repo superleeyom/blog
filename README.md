@@ -1,19 +1,20 @@
 ## Leeyom's Blog
 我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~
 ## 最近更新
+- [关于prometheus无法采集服务指标的问题总结](https://github.com/superleeyom/blog/issues/24)--2021-03-12
 - [《最好的告别》读书笔记](https://github.com/superleeyom/blog/issues/23)--2021-03-10
 - [Maven中关于SNAPSHOT版本的总结](https://github.com/superleeyom/blog/issues/22)--2021-02-24
 - [30岁的槛](https://github.com/superleeyom/blog/issues/21)--2021-02-10
 - [为Git和Maven设置代理加速](https://github.com/superleeyom/blog/issues/20)--2021-02-04
-- [GitHub Actions 实战之监控梯子流量](https://github.com/superleeyom/blog/issues/19)--2021-02-01
 ## Java
+- [关于prometheus无法采集服务指标的问题总结](https://github.com/superleeyom/blog/issues/24)--2021-03-12
 - [Maven中关于SNAPSHOT版本的总结](https://github.com/superleeyom/blog/issues/22)--2021-02-24
 - [GitHub Actions 实战之监控梯子流量](https://github.com/superleeyom/blog/issues/19)--2021-02-01
 - [同一浏览器不同用户登录冲突问题探究](https://github.com/superleeyom/blog/issues/11)--2020-12-13
 - [GitHub Actions 实战之Chrome书签同步](https://github.com/superleeyom/blog/issues/10)--2020-12-07
-- [白话解说之 BIO、NIO、AIO、异步阻塞的区别](https://github.com/superleeyom/blog/issues/3)--2020-10-17
 <details><summary>显示更多</summary>
 
+- [白话解说之 BIO、NIO、AIO、异步阻塞的区别](https://github.com/superleeyom/blog/issues/3)--2020-10-17
 - [Java8函数式编程中比较实用的操作语法](https://github.com/superleeyom/blog/issues/2)--2020-10-09
 - [Java泛型的回顾之旅](https://github.com/superleeyom/blog/issues/1)--2020-10-09
 </details>
