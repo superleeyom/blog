@@ -23,12 +23,12 @@ public class Pair<T> {
     }
 }
 ```
-这就是一个简单的泛型类，T 表示类型参数，泛型就是类型参数化，处理的数据类型不是固定的，而是可以作为参数传入。如下代码所示，对于构造方法 `Pair(T first, T second)` 既可以传 Integer 类型的参数，也可以传 String 类型的参数：
+这就是一个简单的泛型类，T 表示类型参数，泛型就是类型参数化，处理的数据类型不是固定的，而是可以作为参数传入。如下代码所示，对于构造方法 `Pair(T first, T second)` 既可以传 Integer 类型的参数，也可以传 String 类型的参数：
 ```java
 Pair<Integer> minmax = new Pair<Integer>(1,100);
 Pair<String> kv = new Pair<String>("name", "老王");
 ```
-参数类型也可以多种，类 Pair 可以改成如下所示：
+参数类型也可以多种，类 Pair 可以改成如下所示：
 ```java
 public class Pair<U, V> {
     U first;
@@ -48,11 +48,11 @@ public class Pair<U, V> {
     }
 }
 ```
-这样一来，构造方法 `Pair(U first, V second)` 就可以接收不同类型的参数了，既可以是 Integer，也可以是 String：
+这样一来，构造方法 `Pair(U first, V second)` 就可以接收不同类型的参数了，既可以是 Integer，也可以是 String：
 ```java
 Pair<String> kv = new Pair<String>(1, "老王");
 ```
-那假如我们不用泛型类，参数类型直接用 Oeject ，其实也可以满足基本的需求，将类 Pair 修改成如下的方式：
+那假如我们不用泛型类，参数类型直接用 Oeject ，其实也可以满足基本的需求，将类 Pair 修改成如下的方式：
 ```java
 public class Pair {
     Object first;
@@ -205,7 +205,7 @@ E 是 DynamicArray 的类型参数，T 是 addAll 的类型参数，T 的上界�
 ## 解析通配符
 
 ### 有限定通配符
-`<? extends E>` 表示有限定通配符，匹配 E 或 E 的某个子类型，具体什么子类型是未知的，如：
+`<? extends E>` 表示有限定通配符，匹配 E 或 E 的某个子类型，具体什么子类型是未知的，如：
 ```java
 public class DynamicArray<E> {
 	public < T extends E > void addAll( DynamicArray<T> c ){
@@ -225,13 +225,13 @@ public class DynamicArray<E> {
 	}
 }
 ```
-那 `<T extends E>` 和 `<? extends E>` 到底有什么关系？
+那 `<T extends E>` 和 `<? extends E>` 到底有什么关系？
 
-1. `<T extends E>` 用于定义类型参数，它声明了一个类型参数T，**可放在泛型类定义中类名后面、泛型方法返回值前面**。
-1. `<? extends E>` 用于实例化类型参数，**它用于实例化泛型变量中的类型参数**，只是这个具体类型是未知的，只知道它是E或E的某个子类型。
+1. `<T extends E>` 用于定义类型参数，它声明了一个类型参数T，**可放在泛型类定义中类名后面、泛型方法返回值前面**。
+1. `<? extends E>` 用于实例化类型参数，**它用于实例化泛型变量中的类型参数**，只是这个具体类型是未知的，只知道它是E或E的某个子类型。
 
 ### 无限定通配符
-形如 `DynamicArray<? >` ，称为无限定通配符，举个例子，在 DynamicArray 中查找指定的元素：
+形如 `DynamicArray<? >` ，称为无限定通配符，举个例子，在 DynamicArray 中查找指定的元素：
 ```java
 public static int indexOf(DynamicArray<?> arr, Object elm){
 	for (int i=0; i<arr.size(); i++){
@@ -253,7 +253,7 @@ public static <T> int indexOf(DynamicArray<T> arr, Object elm){
 	return -1;
 }
 ```
-但是通配符形式是比较简洁，但是有一个重要的限制：**只能读，不能写！**如下所示：
+但是通配符形式是比较简洁，但是有一个重要的限制：**只能读，不能写**，如下所示：
 ```java
 DynamicArray<Integer> ints = new DynamicArray<>();
 DynamicArray<? extends Number> numbers = ints;
@@ -262,7 +262,7 @@ numbers.add(a);//错误！
 numbers.add((Number)a);//错误！
 numbers.add((Object)a);//错误！
 ```
-因为 ？问号就是表示类型安全无知， `? extends Number` 表示是Number的某个子类型，但不知道具体子类型，如果允许写入，Java 就无法确保类型安全性，所以干脆禁止。现在我们再来看泛型方法到底应该用通配符的形式还是加类型参数。两者到底有什么关系？我们总结如下：
+因为 ？问号就是表示类型安全无知， `? extends Number` 表示是Number的某个子类型，但不知道具体子类型，如果允许写入，Java 就无法确保类型安全性，所以干脆禁止。现在我们再来看泛型方法到底应该用通配符的形式还是加类型参数。两者到底有什么关系？我们总结如下：
 
 1. 通配符形式都可以用类型参数的形式来替代，通配符能做的，用类型参数都能做。
 1. 通配符形式可以减少类型参数，形式上往往更为简单，可读性也更好，所以，能用通配符的就用通配符。
@@ -270,7 +270,7 @@ numbers.add((Object)a);//错误！
 1. 通配符形式和类型参数往往配合使用。
 
 ### 超类型通配符
-`<? super E>` ，称为超类型通配符，表示E的某个父类型，它与 `<? extends E>` 正好相反，有了它，可以灵活的进行写入。我们给 DynamicArray 添加一个方法，将当前容器中的元素添加到传入的目标容器中：
+`<? super E>` ，称为超类型通配符，表示E的某个父类型，它与 `<? extends E>` 正好相反，有了它，可以灵活的进行写入。我们给 DynamicArray 添加一个方法，将当前容器中的元素添加到传入的目标容器中：
 ```java
 public void copyTo(DynamicArray<E> dest){
 	for (int i=0; i<size; i++){
@@ -285,7 +285,7 @@ ints.add(34);
 DynamicArray<Number> numbers = new DynamicArray<Number>();
 ints.copyTo(numbers);
 ```
-Integer 是 Number 的子类，将 Integer 对象拷贝入 Number 容器，这种用法应该是合情合理的，但 Java会 提示编译错误，理由我们之前也说过了，期望的参数类型是 `Dynamic-Array<Number>` , `DynamicArray<Integer>` 并不适用。这里使用超类型通配符就可以解决这个问题：
+Integer 是 Number 的子类，将 Integer 对象拷贝入 Number 容器，这种用法应该是合情合理的，但 Java会 提示编译错误，理由我们之前也说过了，期望的参数类型是 `Dynamic-Array<Number>` , `DynamicArray<Integer>` 并不适用。这里使用超类型通配符就可以解决这个问题：
 ```java
 public void copyTo(DynamicArray<? super E> dest){
 	for (int i=0; i<size; i++){
@@ -295,21 +295,21 @@ public void copyTo(DynamicArray<? super E> dest){
 ```
 这样，编译器就不会报错了，所以总结一下：
 
-1. `<? super E>` 用于**灵活写入或比较**，使得对象可以写入父类型的容器，使得父类型的比较方法可以应用于子类对象，它不能被类型参数形式替代。
-1. `<? >` 和 `<? extends E>` 用于**灵活读取**，使得方法可以读取E或E的任意子类型的容器对象，它们可以用类型参数的形式替代，但通配符形式更为简洁。
+1. `<? super E>` 用于**灵活写入或比较**，使得对象可以写入父类型的容器，使得父类型的比较方法可以应用于子类对象，它不能被类型参数形式替代。
+1. `<? >` 和 `<? extends E>` 用于**灵活读取**，使得方法可以读取E或E的任意子类型的容器对象，它们可以用类型参数的形式替代，但通配符形式更为简洁。
 
 ## 局限性
 
 - 基本类型不能用于实例化类型参数
-   - `Pair<int> minmax = new Pair<int>(1,100);` 是不支持的，解决方法是使用基本类型对应的包装类。
+   - `Pair<int> minmax = new Pair<int>(1,100);` 是不支持的，解决方法是使用基本类型对应的包装类。
       - `Pair<Integer> minmax = new Pair<Integer>(1,100);`
 - 运行时类型信息不适用于泛型
-   - `Pair<Integer>.class` 不支持
-   - `if(p1 instanceof Pair<Integer>)` 不支持
-      - `if(p1 instanceof Pair<? >)` 支持
+   - `Pair<Integer>.class` 不支持
+   - `if(p1 instanceof Pair<Integer>)` 不支持
+      - `if(p1 instanceof Pair<? >)` 支持
 - 类型擦除可能会引发一些冲突
 - 不能通过类型参数创建对象
-   - `T elm = new T();` 不支持，但是可以借助反射机制实现：
+   - `T elm = new T();` 不支持，但是可以借助反射机制实现：
 ```java
 public static <T> T create(Class<T> type){
 	try {
@@ -336,5 +336,5 @@ public class Singleton<T> {
 
 - Java 不支持创建泛型数组
 - Java中还支持多个上界，多个上界之间以&分隔，类似这样：
-   - `T extends Base & Comparable & Serializable` 
+   - `T extends Base & Comparable & Serializable` 
    - Base 为上界类，Comparable 和 Serializable 为上界接口。如果有上界类，类应该放在第一个，当类型擦除时，会用第一个上界替换。
