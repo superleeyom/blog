@@ -23,7 +23,7 @@ public class Pair<T> {
     }
 }
 ```
-这就是一个简单的泛型类，**T 表示类型参数，泛型就是类型参数化，处理的数据类型不是固定的，而是可以作为参数传入。**如下代码所示，对于构造方法 `Pair(T first, T second)` 既可以传 Integer 类型的参数，也可以传 String 类型的参数：
+这就是一个简单的泛型类，T 表示类型参数，泛型就是类型参数化，处理的数据类型不是固定的，而是可以作为参数传入。如下代码所示，对于构造方法 `Pair(T first, T second)` 既可以传 Integer 类型的参数，也可以传 String 类型的参数：
 ```java
 Pair<Integer> minmax = new Pair<Integer>(1,100);
 Pair<String> kv = new Pair<String>("name", "老王");
