@@ -285,7 +285,7 @@ ints.add(34);
 DynamicArray<Number> numbers = new DynamicArray<Number>();
 ints.copyTo(numbers);
 ```
-Integer 是 Number 的子类，将 Integer 对象拷贝入 Number 容器，这种用法应该是合情合理的，但 Java会 提示编译错误，理由我们之前也说过了，期望的参数类型是 `Dynamic-Array<Number>` , `DynamicArray<Integer>` 并不适用。这里使用超类型通配符就可以解决这个问题：
+Integer 是 Number 的子类，将 Integer 对象拷贝入 Number 容器，这种用法应该是合情合理的，但 Java会 提示编译错误，理由我们之前也说过了，期望的参数类型是 `DynamicArray<Number>` , `DynamicArray<Integer>` 并不适用。这里使用超类型通配符就可以解决这个问题：
 ```java
 public void copyTo(DynamicArray<? super E> dest){
 	for (int i=0; i<size; i++){
