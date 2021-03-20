@@ -1,11 +1,11 @@
 ## Leeyom's Blog
 我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~
 ## 最近更新
+- [《人生海海》读书笔记](https://github.com/superleeyom/blog/issues/25)--2021-03-20
 - [关于prometheus无法采集服务指标的问题总结](https://github.com/superleeyom/blog/issues/24)--2021-03-12
 - [《最好的告别》读书笔记](https://github.com/superleeyom/blog/issues/23)--2021-03-10
 - [Maven中关于SNAPSHOT版本的总结](https://github.com/superleeyom/blog/issues/22)--2021-02-24
 - [30岁的槛](https://github.com/superleeyom/blog/issues/21)--2021-02-10
-- [为Git和Maven设置代理加速](https://github.com/superleeyom/blog/issues/20)--2021-02-04
 ## Java
 - [关于prometheus无法采集服务指标的问题总结](https://github.com/superleeyom/blog/issues/24)--2021-03-12
 - [Maven中关于SNAPSHOT版本的总结](https://github.com/superleeyom/blog/issues/22)--2021-02-24
@@ -37,6 +37,7 @@
 ## 分布式
 - [主流分布式id方案总结](https://github.com/superleeyom/blog/issues/16)--2021-01-10
 ## 读书笔记
+- [《人生海海》读书笔记](https://github.com/superleeyom/blog/issues/25)--2021-03-20
 - [《最好的告别》读书笔记](https://github.com/superleeyom/blog/issues/23)--2021-03-10
 - [《失明症漫记》读书笔记](https://github.com/superleeyom/blog/issues/14)--2020-12-31
 - [《睡眠革命》读书笔记](https://github.com/superleeyom/blog/issues/7)--2020-11-22
