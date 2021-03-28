@@ -9,9 +9,9 @@ MD_HEAD = """## Leeyom's Blog
 > 旧博客地址：[www.leeyom.top](https://www.leeyom.top/)，已弃更！！！
 
 联系方式：
-- twitter：[@super_leeyom](https://twitter.com/super_leeyom)
+- Twitter：[@super_leeyom](https://twitter.com/super_leeyom)
 - Telegram：[@super_leeyom](https://t.me/super_leeyom)
-- 邮箱：[leeyomwang@163.com](mailto:leeyomwang@163.com)
+- Email：[leeyomwang@163.com](mailto:leeyomwang@163.com)
 """
 
 BACKUP_DIR = "backup"
