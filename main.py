@@ -11,7 +11,7 @@ MD_HEAD = """## Leeyom's Blog
 联系方式：
 - twitter：[@super_leeyom](https://twitter.com/super_leeyom)
 - Telegram：[@super_leeyom](https://t.me/super_leeyom)
-- 邮箱：[leeyomwang@163.com](leeyomwang@163.com)
+- 邮箱：[leeyomwang@163.com](mailto:leeyomwang@163.com)
 """
 
 BACKUP_DIR = "backup"
