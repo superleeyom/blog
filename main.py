@@ -5,7 +5,8 @@ import os
 from github import Github
 
 MD_HEAD = """## Leeyom's Blog
-我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~
+**我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~**
+> 旧博客地址：[www.leeyom.top](www.leeyom.top)，已不更新！！！
 """
 
 BACKUP_DIR = "backup"
