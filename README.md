@@ -1,5 +1,6 @@
 ## Leeyom's Blog
-我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~
+**我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~**
+> 旧博客地址：[www.leeyom.top](www.leeyom.top)，已不更新！！！
 ## 最近更新
 - [关于多表关联查询的一次优化](https://github.com/superleeyom/blog/issues/26)--2021-03-26
 - [《人生海海》读书笔记](https://github.com/superleeyom/blog/issues/25)--2021-03-20
