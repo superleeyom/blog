@@ -5,7 +5,7 @@
 联系方式：
 - twitter：[@super_leeyom](https://twitter.com/super_leeyom)
 - Telegram：[@super_leeyom](https://t.me/super_leeyom)
-- 邮箱：[leeyomwang@163.com](leeyomwang@163.com)
+- 邮箱：[leeyomwang@163.com](mailto:leeyomwang@163.com)
 ## 最近更新
 - [关于多表关联查询的一次优化](https://github.com/superleeyom/blog/issues/26)--2021-03-26
 - [《人生海海》读书笔记](https://github.com/superleeyom/blog/issues/25)--2021-03-20
