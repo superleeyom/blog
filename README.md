@@ -7,11 +7,11 @@
 - Telegram：[@super_leeyom](https://t.me/super_leeyom)
 - Email：[leeyomwang@163.com](mailto:leeyomwang@163.com)
 ## 最近更新
+- [《指数基金投资指南》读书笔记](https://github.com/superleeyom/blog/issues/28)--2021-04-19
 - [k8s实现Spring Cloud服务平滑升级解决方案](https://github.com/superleeyom/blog/issues/27)--2021-04-16
 - [关于多表关联查询的一次优化](https://github.com/superleeyom/blog/issues/26)--2021-03-26
 - [《人生海海》读书笔记](https://github.com/superleeyom/blog/issues/25)--2021-03-20
 - [关于prometheus无法采集服务指标的问题总结](https://github.com/superleeyom/blog/issues/24)--2021-03-12
-- [《最好的告别》读书笔记](https://github.com/superleeyom/blog/issues/23)--2021-03-10
 ## Java
 - [k8s实现Spring Cloud服务平滑升级解决方案](https://github.com/superleeyom/blog/issues/27)--2021-04-16
 - [关于多表关联查询的一次优化](https://github.com/superleeyom/blog/issues/26)--2021-03-26
@@ -45,6 +45,7 @@
 ## 分布式
 - [主流分布式id方案总结](https://github.com/superleeyom/blog/issues/16)--2021-01-10
 ## 读书笔记
+- [《指数基金投资指南》读书笔记](https://github.com/superleeyom/blog/issues/28)--2021-04-19
 - [《人生海海》读书笔记](https://github.com/superleeyom/blog/issues/25)--2021-03-20
 - [《最好的告别》读书笔记](https://github.com/superleeyom/blog/issues/23)--2021-03-10
 - [《失明症漫记》读书笔记](https://github.com/superleeyom/blog/issues/14)--2020-12-31
