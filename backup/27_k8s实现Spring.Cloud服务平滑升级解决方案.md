@@ -14,13 +14,51 @@
 
 ## 解决办法
 
-### 减少 Eureka Client 获取注册列表的间隔
+### Eureka参数优化
 
-不同的服务（Eureka Client），从 Eureka Server 注册中心获取注册列表的时间间隔默认是30s，这里调整从 Eureka Server 拉取注册列表的间隔，设置为 5 秒：
+#### Client端
 
-```properties
-eureka.client.registry-fetch-interval-seconds = 5
+```yml
+eureka:
+  client:
+    # 表示eureka client间隔多久去拉取服务注册信息，默认为30秒
+    registryFetchIntervalSeconds: 5
+ribbon:
+  # ribbon本地服务列表刷新间隔时间，默认为30秒
+  ServerListRefreshInterval: 5000
 ```
+
+#### Server端
+
+```yml
+eureka:
+  server:
+    # eureka server清理无效节点的时间间隔，默认60秒
+    eviction-interval-timer-in-ms: 5000
+    # eureka server刷新readCacheMap（二级缓存）的时间，默认时间30秒
+    response-cache-update-interval-ms: 5000
+```
+
+以上两个优化主要是缩短服务上线下线的时候，尽可能快的刷新 eureka client 端和 server 端服务注册列表的缓存。
+
+### 网关开启重试机制
+
+因为我们用的是 zuul 网关，开启重试机制，防止在滚动更新的时候，由于网关层 server list 的缓存，将请求打到已下线的节点，zuul 请求失败后，会自动重试一次，重试其他节点，不至于直接报错给用户：
+
+```yml
+ribbon:
+  # 同一实例最大重试次数，不包括首次调用
+  MaxAutoRetries: 0
+  # 重试其他实例的最大重试次数，不包括首次所选的server
+  MaxAutoRetriesNextServer: 1
+  # 是否所有操作都进行重试
+  OkToRetryOnAllOperations: false
+zuul:
+  # 开启Zuul重试功能
+  retryable: true
+```
+
+关于 OkToRetryOnAllOperations 属性，默认值是 false，只有在请求是 GET 的时候会重试，但是如果设置为 true的话，这样设置之后所有的类型的方法（GET、POST、PUT、DELETE等）都会进行重试，server 端需要保证接口的幂等性，例如发生 read timeout 时，若接口不是幂等的，则可能会造成脏数据，这个是需要注意的点！
 
 ### 需要下线的服务主动从注册中心里移除
 
@@ -43,11 +81,11 @@ eureka.client.registry-fetch-interval-seconds = 5
 - HTTP - 对容器上的特定端点执行 HTTP 请求。
 
   ```yml
-  lifecycle:
-    preStop:
-    	httpGet:
-      	path: /eureka/stop/client
-        port: 8080
+	lifecycle:
+	  preStop:
+	    httpGet:
+		path: /eureka/stop/client
+		port: 8080
   ```
 
   用 http 的方式，则需要我们在每个服务的里面，在代码层面将当前服务主动从注册中心进行移除：
@@ -77,7 +115,7 @@ eureka.client.registry-fetch-interval-seconds = 5
 
   ```yml
   livenessProbe:
-      initialDelaySeconds: 95
+      initialDelaySeconds: 35
       periodSeconds: 5
       timeoutSeconds: 10
       httpGet:
@@ -92,7 +130,7 @@ eureka.client.registry-fetch-interval-seconds = 5
 
   ```yml
   readinessProbe:
-      initialDelaySeconds: 90
+      initialDelaySeconds: 30
       periodSeconds: 10
       httpGet:
           scheme: HTTP
@@ -100,7 +138,7 @@ eureka.client.registry-fetch-interval-seconds = 5
           path: /actuator/health
   ```
 
-  `periodSeconds` 参数表示探针每隔多久检测一次，这里设置为 10s，参数` initialDelaySeconds` 代表首次探针的延迟时间，这里的 90 就是指待 pod 启动好了后，再等待 90 秒再进行存活性检测，跟存活指针一样，使用 `HTTPGet` 方式向服务发起请求，请求 `8081` 端口（不同的服务端口可能不一样，按照实际端口进行修改）的 `/actuator/health` （如果有的服务有设置 context-path，注意需要加前缀）路径来进行存活判断，若请求成功，代表服务已就绪，这样配置的话就会达到新的服务启动好了90秒后 k8s 才会让旧服务 down 掉，而90秒后基本上所有的服务都已经从 Eureka 获取到了新服务的注册信息了。
+  `periodSeconds` 参数表示探针每隔多久检测一次，这里设置为 10s，参数` initialDelaySeconds` 代表首次探针的延迟时间，这里的 30 就是指待 pod 启动好了后，再等待 30 秒再进行存活性检测，跟存活指针一样，使用 `HTTPGet` 方式向服务发起请求，请求 `8081` 端口（不同的服务端口可能不一样，按照实际端口进行修改）的 `/actuator/health` （如果有的服务有设置 context-path，注意需要加前缀）路径来进行存活判断，若请求成功，代表服务已就绪，这样配置的话就会达到新的服务启动好了30秒后 k8s 才会让旧服务 down 掉，而30秒后，经过优化Eureka配置后，基本上所有的服务都已经从 Eureka 获取到了新服务的注册信息了。
 
 这里在实际操作的时候，LivenessProbe 的 initialDelaySeconds 的值要大于 ReadinessProbe 的 initialDelaySeconds 的值，否则pod节点会起不起来，因为此时 pod 还没有就绪，存活指针就去探测的话，肯定是会失败的，这时候 k8s 会认为此 pod 已经不存活，就会把 pod 销毁重建。
 
@@ -243,5 +281,5 @@ public class UnipayProviderApplication {
 - [在 k8s 中配置 Spring Cloud 服务 (Eureka 客户端) 优雅下线](https://ld246.com/article/1600336699372)
 - [pod健康检查（LivenessProbe和ReadinessProbe）](https://www.cnblogs.com/normanlin/p/10630889.html)
 - [Kubernetes Pod 健康检查机制 LivenessProbe 与 ReadinessProbe](http://www.mydlq.club/article/39/)
-
-
+- [Spring Cloud Zuul重试机制探秘](https://blog.didispace.com/spring-cloud-zuul-retry-detail/)
+- [Ribbon超时与重试](https://www.xiefayang.com/2019/04/26/Ribbon%E2%80%94%E2%80%94%E8%B6%85%E6%97%B6%E4%B8%8E%E9%87%8D%E8%AF%95/)
