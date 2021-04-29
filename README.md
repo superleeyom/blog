@@ -1,6 +1,5 @@
 ## Leeyom's Blog
 **我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~**
-> 旧博客地址：[www.leeyom.top](https://www.leeyom.top/)，已弃更！！！
 
 联系方式：
 - Twitter：[@super_leeyom](https://twitter.com/super_leeyom)
