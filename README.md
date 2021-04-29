@@ -10,12 +10,12 @@
 - [Docker-Alpine添加中文字体](https://github.com/superleeyom/blog/issues/29)--2021-04-26
 - [《指数基金投资指南》读书笔记](https://github.com/superleeyom/blog/issues/28)--2021-04-19
 - [k8s实现Spring Cloud服务平滑升级解决方案](https://github.com/superleeyom/blog/issues/27)--2021-04-16
-- [关于多表关联查询的一次优化](https://github.com/superleeyom/blog/issues/26)--2021-03-26
+- [关于多表关联查询的优化思路](https://github.com/superleeyom/blog/issues/26)--2021-03-26
 - [《人生海海》读书笔记](https://github.com/superleeyom/blog/issues/25)--2021-03-20
 ## Java
 - [Docker-Alpine添加中文字体](https://github.com/superleeyom/blog/issues/29)--2021-04-26
 - [k8s实现Spring Cloud服务平滑升级解决方案](https://github.com/superleeyom/blog/issues/27)--2021-04-16
-- [关于多表关联查询的一次优化](https://github.com/superleeyom/blog/issues/26)--2021-03-26
+- [关于多表关联查询的优化思路](https://github.com/superleeyom/blog/issues/26)--2021-03-26
 - [关于prometheus无法采集服务指标的问题总结](https://github.com/superleeyom/blog/issues/24)--2021-03-12
 - [Maven中关于SNAPSHOT版本的总结](https://github.com/superleeyom/blog/issues/22)--2021-02-24
 <details><summary>显示更多</summary>
