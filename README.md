@@ -38,7 +38,6 @@
 - [nginx负载均衡原理之ip_hash哈希算法探究](https://github.com/superleeyom/blog/issues/5)--2020-11-05
 - [nginx基础指令及初始配置解析](https://github.com/superleeyom/blog/issues/4)--2020-10-20
 ## 其他
-- [30岁的槛](https://github.com/superleeyom/blog/issues/21)--2021-02-10
 - [为Git和Maven设置代理加速](https://github.com/superleeyom/blog/issues/20)--2021-02-04
 - [咕咚和keep跑步数据导入Nike Run Club](https://github.com/superleeyom/blog/issues/18)--2021-01-27
 - [常用linux进程查询命令](https://github.com/superleeyom/blog/issues/15)--2021-01-03
