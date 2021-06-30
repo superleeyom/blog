@@ -1,17 +1,17 @@
 ## Leeyom's Blog
 **我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~**
->旧博客不想折腾了，已弃更！！！
+> 旧博客地址：[www.leeyom.top](https://www.leeyom.top/)，已弃更！！！
 
 联系方式：
 - Twitter：[@super_leeyom](https://twitter.com/super_leeyom)
 - Telegram：[@super_leeyom](https://t.me/super_leeyom)
 - Email：[leeyomwang@163.com](mailto:leeyomwang@163.com)
 ## 最近更新
+- [我的跑步感悟](https://github.com/superleeyom/blog/issues/30)--2021-06-30
 - [Docker-Alpine添加中文字体](https://github.com/superleeyom/blog/issues/29)--2021-04-26
 - [《指数基金投资指南》读书笔记](https://github.com/superleeyom/blog/issues/28)--2021-04-19
 - [k8s实现Spring Cloud服务平滑升级解决方案](https://github.com/superleeyom/blog/issues/27)--2021-04-16
 - [关于多表关联查询的优化思路](https://github.com/superleeyom/blog/issues/26)--2021-03-26
-- [《人生海海》读书笔记](https://github.com/superleeyom/blog/issues/25)--2021-03-20
 ## Java
 - [Docker-Alpine添加中文字体](https://github.com/superleeyom/blog/issues/29)--2021-04-26
 - [k8s实现Spring Cloud服务平滑升级解决方案](https://github.com/superleeyom/blog/issues/27)--2021-04-16
@@ -38,6 +38,7 @@
 - [nginx负载均衡原理之ip_hash哈希算法探究](https://github.com/superleeyom/blog/issues/5)--2020-11-05
 - [nginx基础指令及初始配置解析](https://github.com/superleeyom/blog/issues/4)--2020-10-20
 ## 其他
+- [我的跑步感悟](https://github.com/superleeyom/blog/issues/30)--2021-06-30
 - [为Git和Maven设置代理加速](https://github.com/superleeyom/blog/issues/20)--2021-02-04
 - [咕咚和keep跑步数据导入Nike Run Club](https://github.com/superleeyom/blog/issues/18)--2021-01-27
 - [常用linux进程查询命令](https://github.com/superleeyom/blog/issues/15)--2021-01-03
