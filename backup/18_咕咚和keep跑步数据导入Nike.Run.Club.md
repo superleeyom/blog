@@ -37,3 +37,9 @@
 最后贴下:
 - 我的跑步主页：[https://running.leeyom.top/](https://running.leeyom.top/)
 - 我的 `Nike Run Club` id：`635709492@qq.com`，欢迎互相关注鼓励
+
+---
+
+> 把用Strava跑步的记录成功导入了NRC！感谢
+
+恭喜哇 @zill057 
