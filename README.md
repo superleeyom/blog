@@ -1,6 +1,6 @@
 ## Leeyom's Blog
 **我的个人博客，用于记录一些幼稚的想法和脑残的瞬间~**
-> 旧博客地址：[www.leeyom.top](https://www.leeyom.top/)，已弃更！！！
+> 旧博客已全部[归档](https://github.com/superleeyom/superleeyom.github.io/tree/master/Archive)了，不再维护了
 
 联系方式：
 - Twitter：[@super_leeyom](https://twitter.com/super_leeyom)
