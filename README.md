@@ -7,12 +7,13 @@
 - Email：[leeyomwang@163.com](mailto:leeyomwang@163.com)
 - Blog：[https://blog.leeyom.top](https://blog.leeyom.top)
 ## 最近更新
+- [聊聊我整牙的那些事儿](https://github.com/superleeyom/blog/issues/31)--2021-07-05
 - [我的跑步感悟](https://github.com/superleeyom/blog/issues/30)--2021-06-30
 - [Docker-Alpine添加中文字体](https://github.com/superleeyom/blog/issues/29)--2021-04-26
 - [《指数基金投资指南》读书笔记](https://github.com/superleeyom/blog/issues/28)--2021-04-19
 - [k8s实现Spring Cloud服务平滑升级解决方案](https://github.com/superleeyom/blog/issues/27)--2021-04-16
-- [关于多表关联查询的优化思路](https://github.com/superleeyom/blog/issues/26)--2021-03-26
 ## 乱写一通
+- [聊聊我整牙的那些事儿](https://github.com/superleeyom/blog/issues/31)--2021-07-05
 - [我的跑步感悟](https://github.com/superleeyom/blog/issues/30)--2021-06-30
 - [咕咚和keep跑步数据导入Nike Run Club](https://github.com/superleeyom/blog/issues/18)--2021-01-27
 - [Hackintosh黑苹果折腾之旅](https://github.com/superleeyom/blog/issues/6)--2020-11-15
