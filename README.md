@@ -7,11 +7,11 @@
 - Email：[leeyomwang@163.com](mailto:leeyomwang@163.com)
 - Blog：[https://blog.leeyom.top](https://blog.leeyom.top)
 ## 最近更新
+- [《半小时漫画经济学4：理财篇》读书笔记](https://github.com/superleeyom/blog/issues/34)--2021-07-12
 - [家常菜谱](https://github.com/superleeyom/blog/issues/33)--2021-07-11
 - [业务数据脱敏解决方案探究](https://github.com/superleeyom/blog/issues/32)--2021-07-08
 - [聊聊我整牙的那些事儿](https://github.com/superleeyom/blog/issues/31)--2021-07-05
 - [我的跑步感悟](https://github.com/superleeyom/blog/issues/30)--2021-06-30
-- [Docker-Alpine添加中文字体](https://github.com/superleeyom/blog/issues/29)--2021-04-26
 ## 乱写一通
 - [家常菜谱](https://github.com/superleeyom/blog/issues/33)--2021-07-11
 - [聊聊我整牙的那些事儿](https://github.com/superleeyom/blog/issues/31)--2021-07-05
@@ -46,8 +46,13 @@
 </details>
 
 ## 读书笔记
+- [《半小时漫画经济学4：理财篇》读书笔记](https://github.com/superleeyom/blog/issues/34)--2021-07-12
 - [《指数基金投资指南》读书笔记](https://github.com/superleeyom/blog/issues/28)--2021-04-19
 - [《人生海海》读书笔记](https://github.com/superleeyom/blog/issues/25)--2021-03-20
 - [《最好的告别》读书笔记](https://github.com/superleeyom/blog/issues/23)--2021-03-10
 - [《失明症漫记》读书笔记](https://github.com/superleeyom/blog/issues/14)--2020-12-31
+<details><summary>显示更多</summary>
+
 - [《睡眠革命》读书笔记](https://github.com/superleeyom/blog/issues/7)--2020-11-22
+</details>
+
