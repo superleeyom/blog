@@ -1,7 +1,5 @@
 # [Java空指针避坑指南](https://github.com/superleeyom/blog/issues/35)
 
-# Java空指针避坑指南
-
 把阿里巴巴的《Java开发手册》里，关于 NPE异常总结了下，**预防空指针异常，从你我做起！** 
 
 ---
