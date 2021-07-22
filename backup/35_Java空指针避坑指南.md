@@ -1,5 +1,11 @@
 # [Java空指针避坑指南](https://github.com/superleeyom/blog/issues/35)
 
+# Java空指针避坑指南
+
+把阿里巴巴的《Java开发手册》里，关于 NPE异常总结了下，**预防空指针异常，从你我做起！** 
+
+---
+
 > 【强制】所有的 POJO 类属性必须使用包装数据类型。
 
 
@@ -15,8 +21,8 @@ List<Pair<String, double>> pairArrayList = new ArrayList<>(2);
 pairArrayList.add(new Pair<>("version1", 8.3));
 pairArrayList.add(new Pair<>("version2", null));
 // 抛出 NullPointerException 异常
-Map<String, double> map = pairArrayList.stream().collect(Collectors.toMap(Pair::getKey, Pair::getValue));
-System.out.println(JSONUtil.toJsonStr(map));
+pairArrayList.stream().collect(Collectors.toMap(Pair::getKey, Pair::getValue));
+
 ```
 
 
@@ -30,6 +36,13 @@ public V merge(K key, V value,BiFunction<? super V, ? super V, ? extends V> rema
     throw new NullPointerException();
   //....
 }
+```
+
+
+这个问题`java9`已经修复，所以也可以尝试升级jdk，或者把value为null的过滤掉就行。另外注意：**如果key相同也会抛异常** ，改成如下代码相同的key就不会报异常，新key的value会替换旧key的value：
+
+```Java
+pairArrayList.stream().collect(Collectors.toMap(Pair::getKey, Pair::getValue,(v1, v2) -> v2))
 ```
 
 
@@ -176,6 +189,22 @@ public static void main(String[] args) {
 
 ---
 
+> 【强制】字符串判断相等，常量一定要写在前面
+
+
+```Java
+String str1 = null;
+String str2 = "hello world";
+// 错误的写法，会抛NPE
+str1.equals(str2);
+// 正确写法
+str2.equals(str1);
+
+```
+
+
+---
+
 其他的可能产生 NPE 的场景：
 
 1. 返回类型为基本数据类型，return 包装数据类型的对象时，自动拆箱有可能产生 NPE：
@@ -231,4 +260,3 @@ if(user!=null){
 可以考虑使用 JDK8 的 Optional 类来防止 NPE 问题。
 
 ---
-
