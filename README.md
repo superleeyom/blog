@@ -12,12 +12,17 @@
 - [家常菜谱](https://github.com/superleeyom/blog/issues/33)--2021-07-11
 - [业务数据脱敏解决方案探究](https://github.com/superleeyom/blog/issues/32)--2021-07-08
 - [聊聊我整牙的那些事儿](https://github.com/superleeyom/blog/issues/31)--2021-07-05
-## 乱写一通
-- [家常菜谱](https://github.com/superleeyom/blog/issues/33)--2021-07-11
-- [聊聊我整牙的那些事儿](https://github.com/superleeyom/blog/issues/31)--2021-07-05
-- [我的跑步感悟](https://github.com/superleeyom/blog/issues/30)--2021-06-30
-- [咕咚和keep跑步数据导入Nike Run Club](https://github.com/superleeyom/blog/issues/18)--2021-01-27
-- [Hackintosh黑苹果折腾之旅](https://github.com/superleeyom/blog/issues/6)--2020-11-15
+## 读书笔记
+- [《半小时漫画经济学4：理财篇》读书笔记](https://github.com/superleeyom/blog/issues/34)--2021-07-12
+- [《指数基金投资指南》读书笔记](https://github.com/superleeyom/blog/issues/28)--2021-04-19
+- [《人生海海》读书笔记](https://github.com/superleeyom/blog/issues/25)--2021-03-20
+- [《最好的告别》读书笔记](https://github.com/superleeyom/blog/issues/23)--2021-03-10
+- [《失明症漫记》读书笔记](https://github.com/superleeyom/blog/issues/14)--2020-12-31
+<details><summary>显示更多</summary>
+
+- [《睡眠革命》读书笔记](https://github.com/superleeyom/blog/issues/7)--2020-11-22
+</details>
+
 ## 技术相关
 - [Java空指针避坑指南](https://github.com/superleeyom/blog/issues/35)--2021-07-22
 - [业务数据脱敏解决方案探究](https://github.com/superleeyom/blog/issues/32)--2021-07-08
@@ -46,14 +51,9 @@
 - [Java泛型的回顾之旅](https://github.com/superleeyom/blog/issues/1)--2020-10-09
 </details>
 
-## 读书笔记
-- [《半小时漫画经济学4：理财篇》读书笔记](https://github.com/superleeyom/blog/issues/34)--2021-07-12
-- [《指数基金投资指南》读书笔记](https://github.com/superleeyom/blog/issues/28)--2021-04-19
-- [《人生海海》读书笔记](https://github.com/superleeyom/blog/issues/25)--2021-03-20
-- [《最好的告别》读书笔记](https://github.com/superleeyom/blog/issues/23)--2021-03-10
-- [《失明症漫记》读书笔记](https://github.com/superleeyom/blog/issues/14)--2020-12-31
-<details><summary>显示更多</summary>
-
-- [《睡眠革命》读书笔记](https://github.com/superleeyom/blog/issues/7)--2020-11-22
-</details>
-
+## 乱写一通
+- [家常菜谱](https://github.com/superleeyom/blog/issues/33)--2021-07-11
+- [聊聊我整牙的那些事儿](https://github.com/superleeyom/blog/issues/31)--2021-07-05
+- [我的跑步感悟](https://github.com/superleeyom/blog/issues/30)--2021-06-30
+- [咕咚和keep跑步数据导入Nike Run Club](https://github.com/superleeyom/blog/issues/18)--2021-01-27
+- [Hackintosh黑苹果折腾之旅](https://github.com/superleeyom/blog/issues/6)--2020-11-15
