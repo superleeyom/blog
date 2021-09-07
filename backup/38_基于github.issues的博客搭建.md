@@ -9,7 +9,7 @@
 ```yml
 env:
   GITHUB_NAME: superleeyom
-  GITHUB_EMAIL: 635709492@qq.com
+  GITHUB_EMAIL: xxx@qq.com
 ```
 
 改成你自己的 Github 用户名和邮箱，接着在你自己的这个 blog 仓库下，创建 `Environment secrets`环境变量 `G_T`：
