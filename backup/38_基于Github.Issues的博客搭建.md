@@ -41,7 +41,7 @@ MD_HEAD = """**<p align="center">[Leeyom's Blog](https://blog.leeyom.top)</p>**
 
 ![](https://raw.githubusercontent.com/superleeyom/blog/main/img/20210906220253.png)
 
-**如果你是 fork 我的项目，建议先 backup 删除下里面的 md 文件！因为那是我的 blog 备份文件！**
+**如果你是 fork 我的项目，建议先把 backup 文件夹下里面的 md 文件删除！因为那是我的 blog 备份文件！**
 
 有了这个项目，我们就可以通过 `Github Actions`，只要有 `issues` 发布或者修改，都会触发自动构建，备份` issues `生产 md 文件，然后刷新 `README.md` 文件。
 
