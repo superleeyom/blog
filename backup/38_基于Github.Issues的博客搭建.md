@@ -100,3 +100,7 @@ MD_HEAD = """**<p align="center">[Leeyom's Blog](https://blog.leeyom.top)</p>**
 
 @Thomas-Lv 确认：1、域名是否填对，2、token权限是否设置对
 具体可以仔细看下：https://github.com/LoeiFy/Mirror/wiki/%E8%8E%B7%E5%8F%96-hash
+
+---
+
+这个token只要查询权限，开放所有的权限可能比较危险，你这样吧，你先重新生成一个token再试试，如果还是不行，你直接在Telegram上联系我吧？我的Telegram id：@super_leeyom
