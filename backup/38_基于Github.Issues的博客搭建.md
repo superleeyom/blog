@@ -95,3 +95,8 @@ MD_HEAD = """**<p align="center">[Leeyom's Blog](https://blog.leeyom.top)</p>**
 > 提示401 这么解决
 
 @Thomas-Lv 这个应该是你的hash生成的有点问题，是不是域名没有填对，你的默认域名是：thomas-lv.github.io
+
+---
+
+@Thomas-Lv 确认：1、域名是否填对，2、token权限是否设置对
+具体可以仔细看下：https://github.com/LoeiFy/Mirror/wiki/%E8%8E%B7%E5%8F%96-hash
