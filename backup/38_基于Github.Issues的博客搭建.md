@@ -89,3 +89,9 @@ MD_HEAD = """**<p align="center">[Leeyom's Blog](https://blog.leeyom.top)</p>**
 
 - [这个博客开源了](https://github.com/yihong0618/gitblog/issues/177)
 - [Mirror中文教程](https://github.com/LoeiFy/Mirror/wiki/%E4%B8%AD%E6%96%87%E6%95%99%E7%A8%8B)
+
+---
+
+> 提示401 这么解决
+
+@Thomas-Lv 这个应该是你的hash生成的有点问题，是不是域名没有填对，你的默认域名是：thomas-lv.github.io
