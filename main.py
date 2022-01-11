@@ -4,7 +4,7 @@ import os
 
 from github import Github
 
-MD_HEAD = """**<p align="center">I'm SHI](https://salomens.github.io/)</p>**
+MD_HEAD = """**<p align="center">[I'm SHI](https://salomens.github.io/)</p>**
 **<p align="center">记录我的生活</p>**
 
 ## 联系方式
