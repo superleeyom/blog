@@ -105,3 +105,26 @@ MD_HEAD = """**<p align="center">[Leeyom's Blog](https://blog.leeyom.top)</p>**
 
 这个token只要查询权限，开放所有的权限可能比较危险，你这样吧，你先重新生成一个token再试试，如果还是不行，你直接在Telegram上联系我吧？我的Telegram id：@super_leeyom
 @Thomas-Lv
+
+---
+
+> 你好，关于你说的不足的地方，我做了增强，可以自动根据 label 来选择是否要发布成文章，目前支持 todo top publish标签。
+> 
+> https://github.com/zackzhangkai/zackzhangkai.github.io/blob/master/.github/workflows/generate_markdown_blog.yml
+> 
+> 需要在yml中增加
+> 
+> ```
+> name: Generate GitBlog README
+> 
+> on:
+>   workflow_dispatch:
+>   issues:
+>     types: [opened, edited, labeled]
+> 
+>   sync:
+>     if: ${{ github.event.label.name == 'todo' }} || ${{ github.event.label.name == 'top' }} || ${{ github.event.label.name == 'publish' }}
+>     name: Generate README
+> ```
+
+cool 🆒
