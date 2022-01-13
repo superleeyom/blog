@@ -7,7 +7,7 @@
 - Email：[leeyomwang@163.com](mailto:leeyomwang@163.com)
 - Blog：[https://blog.leeyom.top](https://blog.leeyom.top)
 ## 最近更新
-- [如何阅读Apple开发文档](https://github.com/superleeyom/blog/issues/40)--2022-01-08
+- [[译]如何阅读Apple开发文档](https://github.com/superleeyom/blog/issues/40)--2022-01-08
 - [我的2021年跑步报告](https://github.com/superleeyom/blog/issues/39)--2022-01-01
 - [基于Github Issues的博客搭建](https://github.com/superleeyom/blog/issues/38)--2021-09-06
 - [深漂5年随想](https://github.com/superleeyom/blog/issues/37)--2021-08-18
@@ -25,7 +25,7 @@
 </details>
 
 ## 技术相关
-- [如何阅读Apple开发文档](https://github.com/superleeyom/blog/issues/40)--2022-01-08
+- [[译]如何阅读Apple开发文档](https://github.com/superleeyom/blog/issues/40)--2022-01-08
 - [基于Github Issues的博客搭建](https://github.com/superleeyom/blog/issues/38)--2021-09-06
 - [对k8s中Service的理解](https://github.com/superleeyom/blog/issues/36)--2021-07-25
 - [Java空指针避坑指南](https://github.com/superleeyom/blog/issues/35)--2021-07-22
