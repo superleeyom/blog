@@ -7,11 +7,11 @@
 - Email：[leeyomwang@163.com](mailto:leeyomwang@163.com)
 - Blog：[https://blog.leeyom.top](https://blog.leeyom.top)
 ## 最近更新
+- [技术周刊分享](https://github.com/superleeyom/blog/issues/42)--2022-01-13
 - [[译]如何阅读Apple开发文档](https://github.com/superleeyom/blog/issues/40)--2022-01-08
 - [我的2021年跑步报告](https://github.com/superleeyom/blog/issues/39)--2022-01-01
 - [基于Github Issues的博客搭建](https://github.com/superleeyom/blog/issues/38)--2021-09-06
 - [深漂5年随想](https://github.com/superleeyom/blog/issues/37)--2021-08-18
-- [对k8s中Service的理解](https://github.com/superleeyom/blog/issues/36)--2021-07-25
 ## 乱写一通
 - [我的2021年跑步报告](https://github.com/superleeyom/blog/issues/39)--2022-01-01
 - [深漂5年随想](https://github.com/superleeyom/blog/issues/37)--2021-08-18
@@ -25,13 +25,14 @@
 </details>
 
 ## 技术相关
+- [技术周刊分享](https://github.com/superleeyom/blog/issues/42)--2022-01-13
 - [[译]如何阅读Apple开发文档](https://github.com/superleeyom/blog/issues/40)--2022-01-08
 - [基于Github Issues的博客搭建](https://github.com/superleeyom/blog/issues/38)--2021-09-06
 - [对k8s中Service的理解](https://github.com/superleeyom/blog/issues/36)--2021-07-25
 - [Java空指针避坑指南](https://github.com/superleeyom/blog/issues/35)--2021-07-22
-- [业务数据脱敏解决方案探究](https://github.com/superleeyom/blog/issues/32)--2021-07-08
 <details><summary>显示更多</summary>
 
+- [业务数据脱敏解决方案探究](https://github.com/superleeyom/blog/issues/32)--2021-07-08
 - [为Docker Alpine添加中文字体](https://github.com/superleeyom/blog/issues/29)--2021-04-26
 - [k8s实现Spring Cloud服务平滑升级解决方案](https://github.com/superleeyom/blog/issues/27)--2021-04-16
 - [关于多表关联查询的优化思路](https://github.com/superleeyom/blog/issues/26)--2021-03-26
