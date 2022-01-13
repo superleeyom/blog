@@ -56,13 +56,13 @@
 </details>
 
 ## 读书笔记
-- [《半小时漫画经济学4：理财篇》读书笔记](https://github.com/superleeyom/blog/issues/34)--2021-07-12
-- [《指数基金投资指南》读书笔记](https://github.com/superleeyom/blog/issues/28)--2021-04-19
-- [《人生海海》读书笔记](https://github.com/superleeyom/blog/issues/25)--2021-03-20
-- [《最好的告别》读书笔记](https://github.com/superleeyom/blog/issues/23)--2021-03-10
-- [《失明症漫记》读书笔记](https://github.com/superleeyom/blog/issues/14)--2020-12-31
+- [[笔记]半小时漫画经济学4：理财篇](https://github.com/superleeyom/blog/issues/34)--2021-07-12
+- [[笔记]指数基金投资指南](https://github.com/superleeyom/blog/issues/28)--2021-04-19
+- [[笔记]人生海海](https://github.com/superleeyom/blog/issues/25)--2021-03-20
+- [[笔记]最好的告别](https://github.com/superleeyom/blog/issues/23)--2021-03-10
+- [[笔记]失明症漫记](https://github.com/superleeyom/blog/issues/14)--2020-12-31
 <details><summary>显示更多</summary>
 
-- [《睡眠革命》读书笔记](https://github.com/superleeyom/blog/issues/7)--2020-11-22
+- [[笔记]睡眠革命](https://github.com/superleeyom/blog/issues/7)--2020-11-22
 </details>
 
