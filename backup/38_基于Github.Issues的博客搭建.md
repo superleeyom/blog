@@ -136,3 +136,7 @@ index.html 里面的`repository: 'blog', ` 这个填你的issues的仓库名称 
 ---
 
 @Salomens 等我我看下你的相关仓库的配置
+
+---
+
+@Salomens 你的issues仓库的github的token相关的环境变量创建了吗？也就是这个 `secrets.G_T`
