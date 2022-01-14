@@ -128,3 +128,7 @@ MD_HEAD = """**<p align="center">[Leeyom's Blog](https://blog.leeyom.top)</p>**
 > ```
 
 cool 🆒
+
+---
+
+index.html 里面的`repository: 'blog', ` 这个填你的issues的仓库名称 @Salomens 
