@@ -144,3 +144,8 @@ index.html 里面的`repository: 'blog', ` 这个填你的issues的仓库名称 
 ---
 
 @Salomens cool！有问题随时联系我
+
+---
+
+@Salomens 看这步：
+![image](https://user-images.githubusercontent.com/22115219/149603446-0d6b9d3b-aa7d-4469-9f65-10f0ec84d3f2.png)
