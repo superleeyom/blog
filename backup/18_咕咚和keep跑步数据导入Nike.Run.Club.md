@@ -43,3 +43,9 @@
 > 把用Strava跑步的记录成功导入了NRC！感谢
 
 恭喜哇 @zill057 
+
+---
+
+> Keep 成功导入了NRC 👍🏻
+
+Cool 
