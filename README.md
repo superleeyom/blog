@@ -11,12 +11,12 @@
 - Blog：[https://blog.leeyom.top](https://blog.leeyom.top)
 ## 最近更新
 - [[笔记]精力管理](https://github.com/superleeyom/blog/issues/44)--2022-01-17
-- [2022年第2周](https://github.com/superleeyom/blog/issues/43)--2022-01-17
+- [2022年个人周报](https://github.com/superleeyom/blog/issues/43)--2022-01-17
 - [技术周刊分享](https://github.com/superleeyom/blog/issues/42)--2022-01-13
 - [[译]如何阅读Apple开发文档](https://github.com/superleeyom/blog/issues/40)--2022-01-08
 - [我的2021年跑步报告](https://github.com/superleeyom/blog/issues/39)--2022-01-01
 ## 个人周报
-- [2022年第2周](https://github.com/superleeyom/blog/issues/43)--2022-01-17
+- [2022年个人周报](https://github.com/superleeyom/blog/issues/43)--2022-01-17
 ## 乱写一通
 - [我的2021年跑步报告](https://github.com/superleeyom/blog/issues/39)--2022-01-01
 - [深漂5年随想](https://github.com/superleeyom/blog/issues/37)--2021-08-18
