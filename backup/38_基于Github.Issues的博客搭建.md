@@ -1,5 +1,10 @@
 # [基于Github Issues的博客搭建](https://github.com/superleeyom/blog/issues/38)
 
+## 最新更新
+- 前端仓库 [superleeyom.github.io](https://github.com/superleeyom/superleeyom.github.io) 增加了一个 [remove_running](https://github.com/superleeyom/superleeyom.github.io/tree/remove_running) 分支，去掉了 running_page 的链接（我的那个跑步记录的入口，有些人用不到），想要去掉这个链接的朋友用这个分支就行 --2022-02-11
+
+## 前言
+
 应朋友`@凯佬`的要求，特意写一篇基于 `Github Issues` 博客的搭建教程，整体的过程非常简单，后端参考了 [@yihong0618](https://github.com/yihong0618) 的 [gitblog](https://github.com/yihong0618/gitblog) 项目，发布` issues`，做数据备份，前端参考了[@LoeiFy](https://github.com/LoeiFy) 的 [Mirror](https://github.com/LoeiFy/Mirror) 项目，用于做前端可视化界面，感谢二位大佬的开源精神，所有的服务全部免费（ps：如果你需要自定义域名，自定义域名需要自己付费购买），感谢 Github！
 
 ## 利用 Github Actions 做数据备份
