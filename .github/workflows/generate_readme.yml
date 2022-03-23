@@ -54,7 +54,7 @@ jobs:
         uses: github-actions-x/commit@v2.6
         with:
           github-token: ${{ secrets.G_T }}
-          commit-message: ":memo:Refresh README AND BACKUP"
+          commit-message: ":memo:刷新README.md和备份issues"
           files: README.md feed.xml backup/
           rebase: "true"
           name: ${{ env.GITHUB_NAME }}
