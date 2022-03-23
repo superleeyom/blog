@@ -48,14 +48,14 @@ jobs:
       - name: Generate new md
         run: |
           source venv/bin/activate
-          python main.py ${{ secrets.G_T }} ${{ github.repository }} --issue_numbe '${{ github.event.issue.number }}'
+          python main.py ${{ secrets.G_T }} ${{ github.repository }} --issue_number '${{ github.event.issue.number }}'
         
       - name: Push README
         uses: github-actions-x/commit@v2.6
         with:
           github-token: ${{ secrets.G_T }}
           commit-message: ":memo:Refresh README AND BACKUP"
-          files: README.md backup/
-          rebase: 'true'
+          files: README.md feed.xml backup/
+          rebase: "true"
           name: ${{ env.GITHUB_NAME }}
           email: ${{ env.GITHUB_EMAIL }}
