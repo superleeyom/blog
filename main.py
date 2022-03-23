@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import argparse
 import os
-import re
 
 from marko.ext.gfm import gfm as marko
 from github import Github
@@ -26,16 +25,7 @@ BACKUP_DIR = "backup"
 ANCHOR_NUMBER = 5
 TOP_ISSUES_LABELS = ["Top"]
 TODO_ISSUES_LABELS = ["TODO"]
-FRIENDS_LABELS = ["Friends"]
-IGNORE_LABELS = FRIENDS_LABELS + TOP_ISSUES_LABELS + TODO_ISSUES_LABELS
-
-FRIENDS_TABLE_HEAD = "| Name | Link | Desc | \n | ---- | ---- | ---- |\n"
-FRIENDS_TABLE_TEMPLATE = "| {name} | {link} | {desc} |\n"
-FRIENDS_INFO_DICT = {
-    "名字": "",
-    "链接": "",
-    "描述": "",
-}
+IGNORE_LABELS = TOP_ISSUES_LABELS + TODO_ISSUES_LABELS
 
 
 def get_me(user):
@@ -52,25 +42,6 @@ def is_hearted_by_me(comment, me):
         if r.content == "heart" and r.user.login == me:
             return True
     return False
-
-
-def _make_friend_table_string(s):
-    info_dict = FRIENDS_INFO_DICT.copy()
-    try:
-        string_list = s.splitlines()
-        # drop empty line
-        string_list = [l for l in string_list if l and not l.isspace()]
-        for l in string_list:
-            string_info_list = re.split("：", l)
-            if len(string_info_list) < 2:
-                continue
-            info_dict[string_info_list[0]] = string_info_list[1]
-        return FRIENDS_TABLE_TEMPLATE.format(
-            name=info_dict["名字"], link=info_dict["链接"], desc=info_dict["描述"]
-        )
-    except Exception as e:
-        print(str(e))
-        return
 
 
 # help to covert xml vaild string
@@ -156,22 +127,6 @@ def add_md_top(repo, md, me):
         for issue in top_issues:
             if is_me(issue, me):
                 add_issue_info(issue, md)
-
-
-def add_md_firends(repo, md, me):
-    s = FRIENDS_TABLE_HEAD
-    friends_issues = list(repo.get_issues(labels=FRIENDS_LABELS))
-    for issue in friends_issues:
-        for comment in issue.get_comments():
-            if is_hearted_by_me(comment, me):
-                try:
-                    s += _make_friend_table_string(comment.body)
-                except Exception as e:
-                    print(str(e))
-                    pass
-    with open(md, "a+", encoding="utf-8") as md:
-        md.write("## 友情链接\n")
-        md.write(s)
 
 
 def add_md_recent(repo, md, me, limit=5):
