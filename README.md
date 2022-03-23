@@ -10,9 +10,6 @@
 - Email：[leeyomwang@163.com](mailto:leeyomwang@163.com)
 - Blog：[https://blog.leeyom.top](https://blog.leeyom.top)
 - RSS：[RSS Feed](https://raw.githubusercontent.com/superleeyom/blog/master/feed.xml)
-## 友情链接
-| Name | Link | Desc | 
- | ---- | ---- | ---- |
 ## 最近更新
 - [[笔记]精力管理](https://github.com/superleeyom/blog/issues/44)--2022-01-17
 - [2022年个人周报](https://github.com/superleeyom/blog/issues/43)--2022-01-17
