@@ -36,14 +36,6 @@ def is_me(issue, me):
     return issue.user.login == me
 
 
-def is_hearted_by_me(comment, me):
-    reactions = list(comment.get_reactions())
-    for r in reactions:
-        if r.content == "heart" and r.user.login == me:
-            return True
-    return False
-
-
 # help to covert xml vaild string
 def _valid_xml_char_ordinal(c):
     codepoint = ord(c)
