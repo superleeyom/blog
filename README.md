@@ -2,7 +2,7 @@
 ====
 
 **<p align="center">用于记录一些幼稚的想法和脑残的瞬间</p>**
-[![](https://user-images.githubusercontent.com/22115219/149507985-22e22223-4644-47bf-abf9-c388c287cc38.JPEG)](https://blog.leeyom.top)
+[![](https://raw.githubusercontent.com/superleeyom/blog/main/img/IMG_216.JPEG)](https://blog.leeyom.top)
 
 ## 联系方式
 - Twitter：[@super_leeyom](https://twitter.com/super_leeyom)
