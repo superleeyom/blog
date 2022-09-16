@@ -159,3 +159,9 @@ index.html 里面的`repository: 'blog', ` 这个填你的issues的仓库名称 
 ---
 
 @Salomen 建议使用原始的 [Mirror](https://github.com/LoeiFy/Mirror)，我那个被我魔改，加了我的跑步的链接，那个得修改源码才行
+
+---
+
+> 请教一下，如果要增加一个元素，应该如何操作呢？工作量大吗？ ![image](https://user-images.githubusercontent.com/73227570/190609213-ea3c9915-0387-41e9-bcdf-88c2b4c44b47.png)
+
+这个比较简单，你可以加我的电报 @super_leeyom 我可以指导下
