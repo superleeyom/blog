@@ -11,11 +11,11 @@
 - Blog：[https://blog.leeyom.top](https://blog.leeyom.top)
 - RSS：[RSS Feed](https://raw.githubusercontent.com/superleeyom/blog/master/feed.xml)
 ## 最近更新
+- [解决 IDEA 因为 Clash 代理问题引起的疑难杂症](https://github.com/superleeyom/blog/issues/51)--2022-09-28
 - [[笔记]神的九十亿个名字](https://github.com/superleeyom/blog/issues/50)--2022-06-25
 - [[笔记]盐糖脂：食品巨头是如何操纵我们的](https://github.com/superleeyom/blog/issues/49)--2022-04-02
 - [我为什么不能放弃跑步](https://github.com/superleeyom/blog/issues/48)--2022-03-27
 - [[笔记]精力管理](https://github.com/superleeyom/blog/issues/44)--2022-01-17
-- [2022年个人周报](https://github.com/superleeyom/blog/issues/43)--2022-01-17
 ## 个人周报
 - [2022年个人周报](https://github.com/superleeyom/blog/issues/43)--2022-01-17
 ## 乱写一通
@@ -32,13 +32,14 @@
 </details>
 
 ## 技术相关
+- [解决 IDEA 因为 Clash 代理问题引起的疑难杂症](https://github.com/superleeyom/blog/issues/51)--2022-09-28
 - [技术周刊分享](https://github.com/superleeyom/blog/issues/42)--2022-01-13
 - [[译]如何阅读Apple开发文档](https://github.com/superleeyom/blog/issues/40)--2022-01-08
 - [基于Github Issues的博客搭建](https://github.com/superleeyom/blog/issues/38)--2021-09-06
 - [对k8s中Service的理解](https://github.com/superleeyom/blog/issues/36)--2021-07-25
-- [Java空指针避坑指南](https://github.com/superleeyom/blog/issues/35)--2021-07-22
 <details><summary>显示更多</summary>
 
+- [Java空指针避坑指南](https://github.com/superleeyom/blog/issues/35)--2021-07-22
 - [业务数据脱敏解决方案探究](https://github.com/superleeyom/blog/issues/32)--2021-07-08
 - [为Docker Alpine添加中文字体](https://github.com/superleeyom/blog/issues/29)--2021-04-26
 - [k8s实现Spring Cloud服务平滑升级解决方案](https://github.com/superleeyom/blog/issues/27)--2021-04-16
