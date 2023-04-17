@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/superleeyom/blog</id><title>RSS feed of superleeyom's blog</title><updated>2023-04-10T16:12:14.752452+00:00</updated><author><name>superleeyom</name><email>635709492@qq.com</email></author><link href="https://github.com/superleeyom/blog"/><link href="https://raw.githubusercontent.com/superleeyom/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/superleeyom/blog/issues/54</id><title>我的跑步数据流</title><updated>2023-04-10T16:12:15.013483+00:00</updated><content type="html"><![CDATA[<ul>
+<feed xmlns="http://www.w3.org/2005/Atom"><id>https://github.com/superleeyom/blog</id><title>RSS feed of superleeyom's blog</title><updated>2023-04-17T02:12:30.834851+00:00</updated><author><name>superleeyom</name><email>635709492@qq.com</email></author><link href="https://github.com/superleeyom/blog"/><link href="https://raw.githubusercontent.com/superleeyom/blog/master/feed.xml" rel="self"/><generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator><entry><id>https://github.com/superleeyom/blog/issues/54</id><title>我的跑步数据流</title><updated>2023-04-17T02:12:31.183157+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <h2>前言</h2>
 <ul>
@@ -44,7 +44,7 @@
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/54" rel="alternate"/><category term="乱写一通"/><published>2023-02-18T04:10:49+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/53</id><title>2022年终总结之我的买房经历</title><updated>2023-04-10T16:12:15.136322+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/superleeyom/blog/issues/54" rel="alternate"/><category term="乱写一通"/><published>2023-02-18T04:10:49+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/53</id><title>2022年终总结之我的买房经历</title><updated>2023-04-17T02:12:31.328360+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <h2>1、前言</h2>
 <ul>
@@ -206,7 +206,20 @@
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/53" rel="alternate"/><category term="乱写一通"/><published>2023-01-08T09:35:00+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/52</id><title>2023年个人周报</title><updated>2023-04-10T16:12:15.257182+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/superleeyom/blog/issues/53" rel="alternate"/><category term="乱写一通"/><published>2023-01-08T09:35:00+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/52</id><title>2023年个人周报</title><updated>2023-04-17T02:12:31.501966+00:00</updated><content type="html"><![CDATA[<ul>
+<li>
+<h2>2023年第15周</h2>
+<ul>
+<li>
+本周训练日志：<details><summary>数据汇总</summary><ul>
+<li><img src="https://raw.githubusercontent.com/superleeyom/blog/main/img/202304171004893.png" alt="" /></li>
+</ul>
+</li>
+<li>这周给车子贴了车窗膜，前铲，黑化车标，前后差不多花了快2k，整体效果还不错，非常帅气！</li>
+<li>周六和女朋友一起去她闺蜜家蹭饭吃，顺便参观下人家的新家，为以后的装修做下参考</li>
+<li>周日和女朋友去她小区楼下，一家叫喜洋洋的新疆烧烤吃烤羊肉串，5块钱一串，吃的是真的真扎实，物美价廉</li>
+</ul>
+</li>
 <li>
 <h2>2023年第14周</h2>
 <ul>
@@ -360,7 +373,7 @@
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/52" rel="alternate"/><category term="个人周报"/><published>2023-01-03T06:20:52+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/51</id><title>解决 IDEA 因为 Clash 代理问题引起的疑难杂症</title><updated>2023-04-10T16:12:15.401800+00:00</updated><content type="html"><![CDATA[<h2>前言</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/52" rel="alternate"/><category term="个人周报"/><published>2023-01-03T06:20:52+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/51</id><title>解决 IDEA 因为 Clash 代理问题引起的疑难杂症</title><updated>2023-04-17T02:12:31.663071+00:00</updated><content type="html"><![CDATA[<h2>前言</h2>
 <p>最近我的 IDEA 因为 Clash 的问题，出现了各种奇奇怪的问题，就这些问题的解决做一个简单的记录。</p>
 <h2>1、You have JVM property &quot;https.proxyHost&quot; set to &quot;127.0.0.1&quot;</h2>
 <p>由于我在 Mac 上开了 Clash 代理软件，接管了系统代理，打开 IDEA 的 <code>Appearance &amp; Behavior --&gt; System Settings --&gt; HTTP Proxy</code> 界面，提示 <strong>You have JVM property &quot;https.proxyHost&quot; set to &quot;127.0.0.1&quot;</strong>，解决方案就是：移除掉 Java 自带的 http 和 socket 代理，采用系统代理，选择 <code>Help -&gt; Edit Custom VM Options</code>，增加如下的配置:</p>
@@ -390,7 +403,7 @@
 <img src="https://raw.githubusercontent.com/superleeyom/blog/main/img/20220928133622.png" alt="" />
 <img src="https://raw.githubusercontent.com/superleeyom/blog/main/img/20220928133650.png" alt="" />
 然后重新刷新下，就不会报内存不足了。</p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/51" rel="alternate"/><category term="技术相关"/><published>2022-09-28T05:48:01+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/50</id><title>[笔记]神的九十亿个名字</title><updated>2023-04-10T16:12:15.537274+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/superleeyom/blog/issues/51" rel="alternate"/><category term="技术相关"/><published>2022-09-28T05:48:01+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/50</id><title>[笔记]神的九十亿个名字</title><updated>2023-04-17T02:12:31.778024+00:00</updated><content type="html"><![CDATA[<ul>
 <li>这个是科幻三巨头之一的阿瑟.克拉克的作品，整书是由多篇科幻短篇小说组成，故事有趣又引人思考，其中最有意思的一篇就是本书的名字，非常推荐。  </li>
 <li>如果能穷尽所有字母，完成所有可能的排列组合，那么我们一定能找到那位至高神真正的名字。我们的功课就是要列举出所有的名字。  </li>
 <li>无论是高达两千英尺、直插深谷的巍巍断崖，还是偏远山谷中如棋盘般纵横交错的梯田，都已无法再让他提起兴致。他倚靠在被山风打磨得光滑如镜的石壁上，愁眉苦脸地盯着远处的群峰。  </li>
@@ -400,7 +413,7 @@
 <li>极目远眺，直至目光所及之处，是一片支离破碎的贫瘠荒原，布满山峦与沟壑、火山口与陨石坑。那些山脉峰峦高耸，直抵下垂的骄阳，仿佛火焰冲天的孤岛，正在黑暗之海中熊熊燃烧——在它们头顶，群星依然夺目，光芒却恒久不变。  </li>
 <li>夕阳西下时天空的色彩，海浪拍打卵石海岸时的低吟，雨滴落地的轻柔，积雪无声的祝福……这些，还有上千种其他的馈赠，原本是属于他的合法遗产，但如今他只能从书籍和古老的影像记录中得知这一切。一想到这里，他的心中充满了被放逐的苦闷与哀伤。  </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/50" rel="alternate"/><category term="读书笔记"/><published>2022-06-25T02:16:16+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/49</id><title>[笔记]盐糖脂：食品巨头是如何操纵我们的</title><updated>2023-04-10T16:12:15.638748+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/superleeyom/blog/issues/50" rel="alternate"/><category term="读书笔记"/><published>2022-06-25T02:16:16+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/49</id><title>[笔记]盐糖脂：食品巨头是如何操纵我们的</title><updated>2023-04-17T02:12:31.897954+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p><img src="https://wfqqreader-1252317822.image.myqcloud.com/cover/738/847738/s_847738.jpg" alt="盐糖脂：食品巨头是如何操纵我们的" />
 作者：迈克尔·莫斯
 时间：2022-04-02 09:45:26
@@ -482,7 +495,7 @@
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/49" rel="alternate"/><category term="读书笔记"/><published>2022-04-02T01:49:43+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/48</id><title>我为什么不能放弃跑步</title><updated>2023-04-10T16:12:15.761705+00:00</updated><content type="html"><![CDATA[<blockquote>
+]]></content><link href="https://github.com/superleeyom/blog/issues/49" rel="alternate"/><category term="读书笔记"/><published>2022-04-02T01:49:43+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/48</id><title>我为什么不能放弃跑步</title><updated>2023-04-17T02:12:32.050087+00:00</updated><content type="html"><![CDATA[<blockquote>
 <p>&quot;明明这么痛苦，这么难过，为什么就是不能放弃跑步？因为全身细胞都在蠢蠢欲动，想要感受强风迎面吹拂的滋味。&quot;</p>
 </blockquote>
 <p>我非常喜欢<a href="https://book.douban.com/subject/26210487/">《强风吹拂》</a>里面的这句话，为此我将它写在了我的 <a href="https://running.leeyom.top/">running page</a> 上，以此来激励自己一直坚持跑下去，当我问我自己，你为什么不能放弃跑步？我思索了一会儿，我将自己这几年跑步心路历程归纳为这几个关键字：<strong>痛苦、恐惧、和解</strong>，下面我来说说这几个关键字的含义。</p>
@@ -507,7 +520,7 @@
 <p>最近两年，我的心态发生了些许的变化，我开始对自己和解了，每天早上 5 公里的晨跑不再是机械式的任务，而是成为了生活的一部分，有时候没状态、想睡个懒觉，那就不跑了，现在的跑步，不再以减肥为目的，而是为了让自己保持一个比较好的精神状态。在 80% 的时间严格限制自己的情况下，剩下的 20% 的时间，我们可以做自己任何想做的事情，并且不需要有任何的心里负担。</p>
 <h2>最后</h2>
 <p>跑步其实是一件非常有意思的事情，由其是当你在城市里面跑步的时候，你会看到各种形形色色的人，有行色匆匆从地铁口进出的上班族，有背着书包穿着校服嬉戏打闹的学生，有坐在大排档喝酒撸串吹牛皮的中年大叔，有略显疲惫坐在公交车上刷手机的年轻人，每个角落都在上演着各种悲欢离合，自己也莫名的会被带入别人的生活里，不由自主的去揣测他们背后的人生故事。</p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/48" rel="alternate"/><category term="乱写一通"/><published>2022-03-27T08:34:13+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/44</id><title>[笔记]精力管理</title><updated>2023-04-10T16:12:15.847820+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/superleeyom/blog/issues/48" rel="alternate"/><category term="乱写一通"/><published>2022-03-27T08:34:13+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/44</id><title>[笔记]精力管理</title><updated>2023-04-17T02:12:32.183666+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <blockquote>
 <p><img src="https://wfqqreader-1252317822.image.myqcloud.com/cover/654/33091654/s_33091654.jpg" alt="精力管理" />
@@ -566,7 +579,7 @@
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/44" rel="alternate"/><category term="读书笔记"/><published>2022-01-17T01:19:39+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/43</id><title>2022年个人周报</title><updated>2023-04-10T16:12:15.983057+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/superleeyom/blog/issues/44" rel="alternate"/><category term="读书笔记"/><published>2022-01-17T01:19:39+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/43</id><title>2022年个人周报</title><updated>2023-04-17T02:12:32.317329+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 <h2>2022年第52周</h2>
 <ul>
@@ -1241,7 +1254,7 @@
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/43" rel="alternate"/><category term="个人周报"/><published>2022-01-17T01:13:51+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/42</id><title>技术周刊分享</title><updated>2023-04-10T16:12:16.327460+00:00</updated><content type="html"><![CDATA[<ul>
+]]></content><link href="https://github.com/superleeyom/blog/issues/43" rel="alternate"/><category term="个人周报"/><published>2022-01-17T01:13:51+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/42</id><title>技术周刊分享</title><updated>2023-04-17T02:12:32.598663+00:00</updated><content type="html"><![CDATA[<ul>
 <li>
 分享一些不错的免费开源的技术周刊（更多见：<a href="https://github.com/superleeyom/my-feed-OPML">my-feed-OPML</a> 项目，每天定时同步我 Feedly 上的订阅源）：<ul>
 <li><a href="https://github.com/tnfe/TNT-Weekly">TNT-Weekly</a>：前端</li>
@@ -1270,7 +1283,7 @@
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/42" rel="alternate"/><category term="技术相关"/><published>2022-01-13T07:27:29+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/40</id><title>[译]如何阅读Apple开发文档</title><updated>2023-04-10T16:12:16.443957+00:00</updated><content type="html"><![CDATA[<p>周末外面一直下雨，闲着也是没事，尝试花了几个小时，把 <a href="https://www.hackingwithswift.com/">Hacking with Swift </a>的创始人 Paul Hudson 在2019 年写的一篇关于「<a href="https://www.hackingwithswift.com/articles/167/how-to-read-apples-developer-documentation">How to read Apple’s developer documentation</a>」的文章翻译成了中文，虽然距离这篇文章发表已经过去两三年了，但是里面的思想和方法却永远不会过时，希望能帮助大家，以下便是译文：</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/42" rel="alternate"/><category term="技术相关"/><published>2022-01-13T07:27:29+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/40</id><title>[译]如何阅读Apple开发文档</title><updated>2023-04-17T02:12:32.748774+00:00</updated><content type="html"><![CDATA[<p>周末外面一直下雨，闲着也是没事，尝试花了几个小时，把 <a href="https://www.hackingwithswift.com/">Hacking with Swift </a>的创始人 Paul Hudson 在2019 年写的一篇关于「<a href="https://www.hackingwithswift.com/articles/167/how-to-read-apples-developer-documentation">How to read Apple’s developer documentation</a>」的文章翻译成了中文，虽然距离这篇文章发表已经过去两三年了，但是里面的思想和方法却永远不会过时，希望能帮助大家，以下便是译文：</p>
 <blockquote>
 <p>作者：Paul Hudson，日期：2019年1月18日</p>
 </blockquote>
@@ -1382,7 +1395,7 @@ open class SCNAnimation : NSObject, SCNAnimationProtocol, NSCopying, NSSecureCod
 <li><a href="https://www.hackingwithswift.com/read">我有一整本书使用项目来教授 Swift 和 iOS</a>，它专门用于以逻辑流程介绍概念。</li>
 </ul>
 <p>你认为阅读 Apple 文档最有效的方法是什么？ 在 Twitter 上和我交流你的想法：<a href="https://twitter.com/twostraws">@twostraws</a>。</p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/40" rel="alternate"/><category term="技术相关"/><published>2022-01-08T09:18:20+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/39</id><title>我的2021年跑步报告</title><updated>2023-04-10T16:12:16.559057+00:00</updated><content type="html"><![CDATA[<p>距离我上一次写博客已经三个月了，今天是2022年的第一天，原本想写篇博客总结回顾下2021年，但是想想还是算了，2021年过的并不是很顺利，也不太想用过多的文字来纪念它，过去了也就过去了，但是却特别想写写自己这一年来的跑步过程，看着各大平台都在出各种年度报告，我也给自己写个2021年的跑步报告，以此来激励自己2022年能继续跑下去。</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/40" rel="alternate"/><category term="技术相关"/><published>2022-01-08T09:18:20+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/39</id><title>我的2021年跑步报告</title><updated>2023-04-17T02:12:32.905337+00:00</updated><content type="html"><![CDATA[<p>距离我上一次写博客已经三个月了，今天是2022年的第一天，原本想写篇博客总结回顾下2021年，但是想想还是算了，2021年过的并不是很顺利，也不太想用过多的文字来纪念它，过去了也就过去了，但是却特别想写写自己这一年来的跑步过程，看着各大平台都在出各种年度报告，我也给自己写个2021年的跑步报告，以此来激励自己2022年能继续跑下去。</p>
 <h2>🏃<a href="https://running.leeyom.top/">跑步数据</a></h2>
 <p>2021年的年度跑步数据如下所示：</p>
 <table>
@@ -1542,7 +1555,7 @@ open class SCNAnimation : NSObject, SCNAnimationProtocol, NSCopying, NSSecureCod
 <p>作家村上春树在《当我谈跑步时，我在谈些什么》说到：“希望一人独处的念头，始终不变地存于心中。所以一天跑一个小时，来确保只属于自己的沉默的时间，对我的精神健康来说，成了具有重要意义的功课。”，确实啊，当代社会太浮躁了，<strong>我们总觉得自己很忙，我们越是忙碌，越会高看自己，认为自己对他人来说不可或缺。我们无法陪伴亲人朋友，不知疲倦，没日没夜，只管四处救火，不给自己留下喘息的时间，这就是现代社会的“成功典型”</strong>，真的，偶尔可以停下来，<strong>跑步1h，灵魂可以喘口气！</strong></p>
 <h2>🏁最后</h2>
 <p>最后，祝大家2022年元旦快乐！新年快乐！</p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/39" rel="alternate"/><category term="乱写一通"/><published>2022-01-01T04:22:08+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/38</id><title>基于Github Issues的博客搭建</title><updated>2023-04-10T16:12:16.668537+00:00</updated><content type="html"><![CDATA[<h2>最新更新</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/39" rel="alternate"/><category term="乱写一通"/><published>2022-01-01T04:22:08+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/38</id><title>基于Github Issues的博客搭建</title><updated>2023-04-17T02:12:33.052943+00:00</updated><content type="html"><![CDATA[<h2>最新更新</h2>
 <ul>
 <li>前端仓库 <a href="https://github.com/superleeyom/superleeyom.github.io">superleeyom.github.io</a> 增加了一个 <a href="https://github.com/superleeyom/superleeyom.github.io/tree/remove_running">remove_running</a> 分支，去掉了 running_page 的链接（我的那个跑步记录的入口，有些人用不到），想要去掉这个链接的朋友用这个分支就行 --2022-02-11</li>
 </ul>
@@ -1618,7 +1631,7 @@ open class SCNAnimation : NSObject, SCNAnimationProtocol, NSCopying, NSSecureCod
 <li><a href="https://github.com/yihong0618/gitblog/issues/177">这个博客开源了</a></li>
 <li><a href="https://github.com/LoeiFy/Mirror/wiki/%E4%B8%AD%E6%96%87%E6%95%99%E7%A8%8B">Mirror中文教程</a></li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/38" rel="alternate"/><category term="技术相关"/><published>2021-09-06T14:44:53+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/37</id><title>深漂5年随想</title><updated>2023-04-10T16:12:16.767856+00:00</updated><content type="html"><![CDATA[<p>有时候跟同事们一起吃饭，大家就会聊起深圳去与留的话题，从大家的言语中看出，大家当初来深圳的大多数是想看看外面的世界怎样，但是在经历了社会的毒打，996的煎熬，房价的绝望后，也感受到了大环境下沉重的压力，大家最后也只会在自嘲的笑声结束这个话题。</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/38" rel="alternate"/><category term="技术相关"/><published>2021-09-06T14:44:53+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/37</id><title>深漂5年随想</title><updated>2023-04-17T02:12:33.197460+00:00</updated><content type="html"><![CDATA[<p>有时候跟同事们一起吃饭，大家就会聊起深圳去与留的话题，从大家的言语中看出，大家当初来深圳的大多数是想看看外面的世界怎样，但是在经历了社会的毒打，996的煎熬，房价的绝望后，也感受到了大环境下沉重的压力，大家最后也只会在自嘲的笑声结束这个话题。</p>
 <p>当我自己真实面对这个选择的时候，自己内心有过纠结与彷惶。说实话，我还是挺喜欢深圳的，喜欢深圳的天气，一年9个月可以穿短袖短裤，喜欢深圳的大海，夏天可以去西涌海滩游泳冲浪，喜欢深圳的交通，去哪里都可以坐公交地铁，喜欢深圳的就业环境，工作机会多。</p>
 <p>可为啥想要离开深圳呢？</p>
 <p>我是2016年来到深圳的，今年2021年，刚好第5个年头了，我觉得我想离开深圳的最大的一个原因是自己对房价的绝望吧。目前福田区、宝安区、南山区，稍微像样点的小区，二手房价没有低于6w+的，买一套70平两房，总价420万，首付130万，还不算税，普通人估计掏空家里的6个钱包都不够首付。房价构成了阶级的壁垒，人生的难度都不一样，自然就有人要做出选择，能留在深圳扎根的，是社会的精英阶层，当然离开也并不可耻，它是一种生活方式的选择，在认清现实和理想后，选择一条合适自己的路走也不是不行。</p>
@@ -1682,7 +1695,7 @@ What's going on?
 <p>后悔？庆幸？开心？难过？</p>
 <p>管他呢！</p>
 <p><img src="http://image.leeyom.top/blog/B58F8625-8F9A-4247-AEA7-357641F302D8.jpeg" alt="" /></p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/37" rel="alternate"/><category term="乱写一通"/><published>2021-08-18T02:04:58+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/36</id><title>对k8s中Service的理解</title><updated>2023-04-10T16:12:16.897274+00:00</updated><content type="html"><![CDATA[<p>以下是我基于实际生产实践，对于k8s里关于Service的一些比较粗浅的理解，如果有些不对的地方，欢迎指出，这些理解基于腾讯云的容器服务TKE，之前一直对这个概念比较模糊，结合腾讯云TKE上的文档，后面请教了同事鲲鹏后，总算是有点清晰了，首先先明确Service的基本概念：</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/37" rel="alternate"/><category term="乱写一通"/><published>2021-08-18T02:04:58+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/36</id><title>对k8s中Service的理解</title><updated>2023-04-17T02:12:33.369771+00:00</updated><content type="html"><![CDATA[<p>以下是我基于实际生产实践，对于k8s里关于Service的一些比较粗浅的理解，如果有些不对的地方，欢迎指出，这些理解基于腾讯云的容器服务TKE，之前一直对这个概念比较模糊，结合腾讯云TKE上的文档，后面请教了同事鲲鹏后，总算是有点清晰了，首先先明确Service的基本概念：</p>
 <blockquote>
 <p>用户在 Kubernetes 中可以部署各种容器，其中一部分是通过 HTTP、HTTPS 协议对外提供七层网络服务，另一部分是通过 TCP、UDP 协议提供四层网络服务。而 Kubernetes 定义的 Service 资源就是用来管理集群中四层网络的服务访问。</p>
 </blockquote>
@@ -1699,7 +1712,7 @@ What's going on?
 <p><img src="http://image.leeyom.top/blog/20210723182111.png" alt="" /></p>
 <p>腾讯云上内网和公网的打通是通过构建子网的方式，对应pod的service创建后，会生成一个ipv4地址，在内网直接ping该ipv4地址，是可以ping通的。LoadBalancer 就感觉有点像是 ClusterIP 和NodePort的超集，用这张图可以理解下：</p>
 <p><img src="http://image.leeyom.top/blog/20210723184516.png" alt="" /></p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/36" rel="alternate"/><category term="技术相关"/><published>2021-07-25T00:52:01+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/35</id><title>Java空指针避坑指南</title><updated>2023-04-10T16:12:16.987842+00:00</updated><content type="html"><![CDATA[<p>把阿里巴巴的《Java开发手册》里，关于 NPE异常总结了下，<strong>预防空指针异常，从你我做起！</strong> </p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/36" rel="alternate"/><category term="技术相关"/><published>2021-07-25T00:52:01+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/35</id><title>Java空指针避坑指南</title><updated>2023-04-17T02:12:33.492010+00:00</updated><content type="html"><![CDATA[<p>把阿里巴巴的《Java开发手册》里，关于 NPE异常总结了下，<strong>预防空指针异常，从你我做起！</strong> </p>
 <hr />
 <blockquote>
 <p>【强制】所有的 POJO 类属性必须使用包装数据类型。</p>
@@ -1894,7 +1907,7 @@ if(user!=null){
 </ol>
 <p>可以考虑使用 JDK8 的 Optional 类来防止 NPE 问题。</p>
 <hr />
-]]></content><link href="https://github.com/superleeyom/blog/issues/35" rel="alternate"/><category term="技术相关"/><published>2021-07-22T07:10:12+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/34</id><title>[笔记]半小时漫画经济学4：理财篇</title><updated>2023-04-10T16:12:17.087388+00:00</updated><content type="html"><![CDATA[<h1>《半小时漫画经济学4：理财篇》读书笔记</h1>
+]]></content><link href="https://github.com/superleeyom/blog/issues/35" rel="alternate"/><category term="技术相关"/><published>2021-07-22T07:10:12+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/34</id><title>[笔记]半小时漫画经济学4：理财篇</title><updated>2023-04-17T02:12:33.638353+00:00</updated><content type="html"><![CDATA[<h1>《半小时漫画经济学4：理财篇》读书笔记</h1>
 <p>在地铁上看完的，篇幅不长，算是一个科普理财的小册子，半小时到一个小时就可以看完，整书用通俗的话语解释那些投资和理财的专业名词，风趣幽默，挺有意思，摘抄了几句印象比较深的句子，记录一下。</p>
 <h2>二、结构性存款：他们说我是保本理财的替身</h2>
 <ul>
@@ -1951,7 +1964,7 @@ if(user!=null){
 <p>阿蛛觉得涨得差不多了，于是把期货卖了出去，这叫平仓</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/34" rel="alternate"/><category term="读书笔记"/><published>2021-07-12T14:03:29+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/33</id><title>家常菜谱</title><updated>2023-04-10T16:12:17.182353+00:00</updated><content type="html"><![CDATA[<p>简单记录下自己做过的一些好吃的菜！等哪天不记得咋做的时候，可以过来翻翻看，回忆下步骤。</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/34" rel="alternate"/><category term="读书笔记"/><published>2021-07-12T14:03:29+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/33</id><title>家常菜谱</title><updated>2023-04-17T02:12:33.772873+00:00</updated><content type="html"><![CDATA[<p>简单记录下自己做过的一些好吃的菜！等哪天不记得咋做的时候，可以过来翻翻看，回忆下步骤。</p>
 <h2>腐竹炒肉</h2>
 <ol>
 <li>猪肉切片备用</li>
@@ -2022,7 +2035,7 @@ if(user!=null){
 <li>加入金针菇，加入适量的盐调味</li>
 <li>最后把腌制好的牛肉加入，等牛肉变色1分钟后即可出锅装盘</li>
 </ol>
-]]></content><link href="https://github.com/superleeyom/blog/issues/33" rel="alternate"/><category term="乱写一通"/><published>2021-07-11T02:43:22+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/32</id><title>业务数据脱敏解决方案探究</title><updated>2023-04-10T16:12:17.294906+00:00</updated><content type="html"><![CDATA[<h1>业务数据脱敏解决方案探究</h1>
+]]></content><link href="https://github.com/superleeyom/blog/issues/33" rel="alternate"/><category term="乱写一通"/><published>2021-07-11T02:43:22+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/32</id><title>业务数据脱敏解决方案探究</title><updated>2023-04-17T02:12:33.913085+00:00</updated><content type="html"><![CDATA[<h1>业务数据脱敏解决方案探究</h1>
 <h2>使用背景</h2>
 <ul>
 <li>
@@ -2246,7 +2259,7 @@ Actual SQL: ds ::: SELECT id,name,age,encrypt_email AS email,encrypt_email FROM 
 <p>我个人的感觉是 sharding-jdbc 确实做到了<strong>屏蔽底层对数据的脱敏处理</strong> ，但是要接入 sharding-jdbc 的前提是，<strong>团队有制定严格的SQL规范</strong> ，这样可能接入数据库中间件的时候，才会出现比较少的问题，对于一些老系统，动辄几百行的SQL，各种复杂函数，还是放弃接入的好，到时候只会是一步一个坑。</p>
 <p>另外如果想要满足文章开头的第二个需求，也就是把生产库的数据同步到预发布，同时要屏蔽部分敏感数据，大部分的云厂商，都有提供脱敏工具，比如我们自己在用的腾讯云的 DBbrain，就可以支持数据脱敏，但是实际使用还不是怎么完善，有待改进。</p>
 <p>示例代码：<a href="https://github.com/superleeyom/shardingsphere-encrypt-jdbc-demo">shardingsphere-encrypt-jdbc-demo</a></p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/32" rel="alternate"/><category term="技术相关"/><published>2021-07-08T02:10:47+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/31</id><title>聊聊我整牙的那些事儿</title><updated>2023-04-10T16:12:17.420961+00:00</updated><content type="html"><![CDATA[<h1>聊聊我整牙的那些事儿</h1>
+]]></content><link href="https://github.com/superleeyom/blog/issues/32" rel="alternate"/><category term="技术相关"/><published>2021-07-08T02:10:47+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/31</id><title>聊聊我整牙的那些事儿</title><updated>2023-04-17T02:12:34.055762+00:00</updated><content type="html"><![CDATA[<h1>聊聊我整牙的那些事儿</h1>
 <h2>矫正动机</h2>
 <p>马上再过几天，就可以拆牙套了，想记录下自己这快两年整牙的辛酸史，顺便给想矫正牙齿的朋友分享点经验。因为我小时候，门牙就不太整齐，牙齿比较拥挤，并且家里当时条件也不太好，所以就没有去医院矫正，长大后，这也就成了我的一块心病，导致向人微笑的时候，常常抿嘴，不够自信。后面参加工作后，自己有了一定的积蓄后，我便开始准备着手矫正牙齿的事情，我在 19 年的国庆节向父母提了这个事情，他们当时还是挺支持我的，只是表示你要自己能受得了这份罪就去弄，不要后悔就行，就这样，我开始了我的牙齿矫正之路。</p>
 <h2>前期准备</h2>
@@ -2324,7 +2337,7 @@ Actual SQL: ds ::: SELECT id,name,age,encrypt_email AS email,encrypt_email FROM 
 <h2>一些心得</h2>
 <p><strong>矫正牙齿我觉得是我人生中比较重要的一件事情</strong> ，虽然过程确实挺痛苦的，但是能带来一口整齐的牙齿和灿烂的笑容，我觉得挺值的。人类的可塑性和适应能力是很强的，哪怕是根深蒂固的牙齿，依然借助外力也可以矫正过来。所以如果你有矫正的想法，现在就开始行动吧！因为：</p>
 <p><img src="http://image.leeyom.top/blog/fc61963ce5a39adaf8583a2d30b8c212.JPG" alt="" /></p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/31" rel="alternate"/><category term="乱写一通"/><published>2021-07-05T16:05:13+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/30</id><title>我的跑步感悟</title><updated>2023-04-10T16:12:17.518669+00:00</updated><content type="html"><![CDATA[<h1>我的跑步感悟</h1>
+]]></content><link href="https://github.com/superleeyom/blog/issues/31" rel="alternate"/><category term="乱写一通"/><published>2021-07-05T16:05:13+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/30</id><title>我的跑步感悟</title><updated>2023-04-17T02:12:34.197662+00:00</updated><content type="html"><![CDATA[<h1>我的跑步感悟</h1>
 <h2>前言</h2>
 <p>之前有看到 <a href="https://github.com/yihong0618">@yihong</a> 发表的<a href="https://github.com/yihong0618/gitblog/issues/178">《程序员跑步指南》</a>博客，突然也想写写最近这几年自己跑步的一些感悟，一直拖到现在，因为这只是我作为一名业余跑步爱好者的一些经验和感悟，这些建议可能缺乏专业性，毕竟每个人所处的环境，身体状况都不一样，所以仅供参考哈。</p>
 <h2>个人概况</h2>
@@ -2406,7 +2419,7 @@ Actual SQL: ds ::: SELECT id,name,age,encrypt_email AS email,encrypt_email FROM 
 <blockquote>
 <p>明明这么痛苦，这么难过，为什么就是不能放弃跑步？因为全身细胞都在蠢蠢欲动，想要感受强风迎面吹拂的滋味。––《强风吹拂》</p>
 </blockquote>
-]]></content><link href="https://github.com/superleeyom/blog/issues/30" rel="alternate"/><category term="乱写一通"/><published>2021-06-30T14:59:17+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/29</id><title>为Docker Alpine添加中文字体</title><updated>2023-04-10T16:12:17.621426+00:00</updated><content type="html"><![CDATA[<ol>
+]]></content><link href="https://github.com/superleeyom/blog/issues/30" rel="alternate"/><category term="乱写一通"/><published>2021-06-30T14:59:17+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/29</id><title>为Docker Alpine添加中文字体</title><updated>2023-04-17T02:12:34.329634+00:00</updated><content type="html"><![CDATA[<ol>
 <li>
 <p>首先提前将需要安装的字体拷贝到 Jenkins 所在的机器上（<code>/media/front/</code>目录下）</p>
 <pre><code class="language-shell">cd /media/front/
@@ -2456,7 +2469,7 @@ cd /home/jenkins/data/soft/model/${MODEL_NAME}${BUILD_ID}/${MODEL_NAME}/target
 </code></pre>
 </li>
 </ol>
-]]></content><link href="https://github.com/superleeyom/blog/issues/29" rel="alternate"/><category term="技术相关"/><published>2021-04-26T03:18:03+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/28</id><title>[笔记]指数基金投资指南</title><updated>2023-04-10T16:12:17.736801+00:00</updated><content type="html"><![CDATA[<h2>指数基金投资指南</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/29" rel="alternate"/><category term="技术相关"/><published>2021-04-26T03:18:03+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/28</id><title>[笔记]指数基金投资指南</title><updated>2023-04-17T02:12:34.472059+00:00</updated><content type="html"><![CDATA[<h2>指数基金投资指南</h2>
 <blockquote>
 <p>作者：银行螺丝钉；数量：33个笔记；时间：2021-04-19 22:17:00</p>
 </blockquote>
@@ -2616,7 +2629,7 @@ cd /home/jenkins/data/soft/model/${MODEL_NAME}${BUILD_ID}/${MODEL_NAME}/target
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/28" rel="alternate"/><category term="读书笔记"/><published>2021-04-19T14:37:59+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/27</id><title>k8s实现Spring Cloud服务平滑升级解决方案</title><updated>2023-04-10T16:12:17.855049+00:00</updated><content type="html"><![CDATA[<h2>背景</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/28" rel="alternate"/><category term="读书笔记"/><published>2021-04-19T14:37:59+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/27</id><title>k8s实现Spring Cloud服务平滑升级解决方案</title><updated>2023-04-17T02:12:34.750637+00:00</updated><content type="html"><![CDATA[<h2>背景</h2>
 <p>目前公司的服务是用 Spring Cloud 框架，且服务采用 k8s 进行部署，但是有新的服务需要升级的时候，虽然采用目前采用的滚动更新的方式，但是由于服务注册到 Eureka 上去的时候，会有30秒到1分钟左右不等的真空时间，这段时间会造成线上服务短时间的不能访问，所以在服务升级的时候，让服务能平滑升级达到用户无感的效果这是非常有必要的。</p>
 <h2>原因分析</h2>
 <p>在 Spring Cloud 的服务中，用户访问的一般都是网关（Gateway 或 Zuul），通过网关进行一次中转再去访问内部的服务，但是通过网关访问内部服务时需要一个过程，一般流程是这样的：服务启动好了后会先将自己注册信息（服务名-&gt;ip:端口）注册（上报）到 Eureka 注册中心，以便其他服务能访问到它，然后其他服务会定时访问（轮询 fetch 的默认时间间隔是 30s ）注册中心以获取到 Eureka 中最新的服务注册列表。</p>
@@ -2857,7 +2870,7 @@ public class GracefulShutdownUndertowWrapper implements HandlerWrapper {
 <li><a href="https://blog.didispace.com/spring-cloud-zuul-retry-detail/">Spring Cloud Zuul重试机制探秘</a></li>
 <li><a href="https://www.xiefayang.com/2019/04/26/Ribbon%E2%80%94%E2%80%94%E8%B6%85%E6%97%B6%E4%B8%8E%E9%87%8D%E8%AF%95/">Ribbon超时与重试</a></li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/27" rel="alternate"/><category term="技术相关"/><published>2021-04-16T09:43:38+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/26</id><title>关于多表关联查询的优化思路</title><updated>2023-04-10T16:12:17.959498+00:00</updated><content type="html"><![CDATA[<h2>问题分析</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/27" rel="alternate"/><category term="技术相关"/><published>2021-04-16T09:43:38+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/26</id><title>关于多表关联查询的优化思路</title><updated>2023-04-17T02:12:34.912086+00:00</updated><content type="html"><![CDATA[<h2>问题分析</h2>
 <p>最近在帮同事优化一个慢查询，这张主表的数量在 100w+，它具体的问题就是，查询条件非常多，大约有 30 多个可选的查询条件，这些查询的字段分散在数据库的各个表中，导致 <code>left join</code> 的表特别多，大约 <code>left join</code> 七八张表，这种情况下分页查询，查询时间在 5~6 秒，非常的影响查询体验。</p>
 <pre><code class="language-sql">-- 示例伪 sql
 select  o.id
@@ -2960,7 +2973,7 @@ return page;
 <li>在数据量比较大的情况下，多表关联查询，拆解为多个单表查询，可以提高整体的查询效率</li>
 <li>for 循环里面，不能有查询 DB 的操作，应该在 for 循环外批量从 DB 取出后，映射到内存中，然后 for 循环从内存中读取</li>
 </ol>
-]]></content><link href="https://github.com/superleeyom/blog/issues/26" rel="alternate"/><category term="技术相关"/><published>2021-03-26T11:26:27+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/25</id><title>[笔记]人生海海</title><updated>2023-04-10T16:12:18.056592+00:00</updated><content type="html"><![CDATA[<p>《人生海海》这本书真的写的太棒了，麦家老师的文笔优美，平易近人，接地气，同时风趣幽默，最后看完本书后，鼻子酸酸的，满心的感受，上校的人生经历扑朔迷离，里面有一句话特别感动：</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/26" rel="alternate"/><category term="技术相关"/><published>2021-03-26T11:26:27+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/25</id><title>[笔记]人生海海</title><updated>2023-04-17T02:12:35.039094+00:00</updated><content type="html"><![CDATA[<p>《人生海海》这本书真的写的太棒了，麦家老师的文笔优美，平易近人，接地气，同时风趣幽默，最后看完本书后，鼻子酸酸的，满心的感受，上校的人生经历扑朔迷离，里面有一句话特别感动：</p>
 <blockquote>
 <p>世上只有一种英雄主义，就是在认清了生活真相后依然热爱生活。</p>
 </blockquote>
@@ -3087,7 +3100,7 @@ return page;
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/25" rel="alternate"/><category term="读书笔记"/><published>2021-03-20T03:35:02+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/24</id><title>关于prometheus无法采集服务指标的问题总结</title><updated>2023-04-10T16:12:18.205955+00:00</updated><content type="html"><![CDATA[<h2>名词解析</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/25" rel="alternate"/><category term="读书笔记"/><published>2021-03-20T03:35:02+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/24</id><title>关于prometheus无法采集服务指标的问题总结</title><updated>2023-04-17T02:12:35.188978+00:00</updated><content type="html"><![CDATA[<h2>名词解析</h2>
 <h3>context-path</h3>
 <p>对应的 Spring Boot 后台服务，如果增加了 <code>server.servlet.context-path</code> 配置，则会指定项目路径，是构成 url 地址的一部分，比如，在没有加此配置前，我们获取用户列表接口是这样访问：</p>
 <pre><code>http://127.0.0.1:8090/user/list
@@ -3164,7 +3177,7 @@ return page;
 <li><a href="https://y0ngb1n.github.io/a/monitoring-your-springboot-app-with-prometheus-grafana.html">使用 Prometheus &amp; Grafana 监控你的 Spring Boot 应用</a></li>
 <li><a href="https://www.sakuratears.top/blog/Eureka%E8%AF%A6%E8%A7%A3.html#%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90">Eureka详解</a></li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/24" rel="alternate"/><category term="技术相关"/><published>2021-03-12T10:32:04+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/23</id><title>[笔记]最好的告别</title><updated>2023-04-10T16:12:18.316170+00:00</updated><content type="html"><![CDATA[<h2>最好的告别：关于衰老与死亡，你必须知道的常识</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/24" rel="alternate"/><category term="技术相关"/><published>2021-03-12T10:32:04+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/23</id><title>[笔记]最好的告别</title><updated>2023-04-17T02:12:35.322219+00:00</updated><content type="html"><![CDATA[<h2>最好的告别：关于衰老与死亡，你必须知道的常识</h2>
 <blockquote>
 <p>作者：阿图·葛文德；数量：23个笔记；时间：2021-03-10 10:12:36</p>
 </blockquote>
@@ -3282,7 +3295,7 @@ return page;
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/23" rel="alternate"/><category term="读书笔记"/><published>2021-03-10T02:16:53+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/22</id><title>Maven中关于SNAPSHOT版本的总结</title><updated>2023-04-10T16:12:18.430353+00:00</updated><content type="html"><![CDATA[<h2>Maven中的SNAPSHOT版本</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/23" rel="alternate"/><category term="读书笔记"/><published>2021-03-10T02:16:53+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/22</id><title>Maven中关于SNAPSHOT版本的总结</title><updated>2023-04-17T02:12:35.470212+00:00</updated><content type="html"><![CDATA[<h2>Maven中的SNAPSHOT版本</h2>
 <p>假设有两个小组负责维护两个组件，<code>example-service</code> 和 <code>example-ui</code>，这两个组件不在同一个代码仓库，<code>example-service</code> 的版本号信息：</p>
 <pre><code class="language-xml">&lt;artifactId&gt;example-service&lt;/artifactId&gt;
 	&lt;version&gt;1.0&lt;/version&gt;
@@ -3333,7 +3346,7 @@ return page;
 <li><a href="https://blog.csdn.net/wangb_java/article/details/66000956">maven(15)，快照与发布，RELEASE与SNAPSHOT</a></li>
 <li><a href="https://caosg.gitbooks.io/java-devepment-rules/content/project/maven.html">MAVEN规约</a></li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/22" rel="alternate"/><category term="技术相关"/><published>2021-02-24T09:25:10+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/20</id><title>为Git和Maven设置代理加速</title><updated>2023-04-10T16:12:18.530678+00:00</updated><content type="html"><![CDATA[<h2>Git</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/22" rel="alternate"/><category term="技术相关"/><published>2021-02-24T09:25:10+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/20</id><title>为Git和Maven设置代理加速</title><updated>2023-04-17T02:12:35.599145+00:00</updated><content type="html"><![CDATA[<h2>Git</h2>
 <p>由于 <code>GFW</code> 的缘故，有时候要去 <code>Github</code> 上克隆代码，半天 <code>git clone</code> 不下来，改过 <code>host</code>，设置过代理镜像，发现根本不管用，最后整来整去，花钱买个好点的梯子，设置好 <code>Git</code> 代理，要省不少事情。</p>
 <h3>全局代理</h3>
 <p>为 <code>Git</code> 设置全局代理（前提你已经买了比较好的梯子），根据代理协议的不同，在终端执行如下命令：</p>
@@ -3397,7 +3410,7 @@ Resolving deltas: 100% (302817/302817), done.
 &lt;/proxies&gt;
 </code></pre>
 <p>设置完毕后，依赖下载丝滑流畅😂，更加具体配置的可以参考 <code>Maven</code> 官方配置文档：<a href="https://maven.apache.org/guides/mini/guide-proxies.html">Configuring a proxy</a>，<code>fuck GFW！！！</code></p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/20" rel="alternate"/><category term="技术相关"/><published>2021-02-04T01:31:45+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/19</id><title>GitHub Actions 实战之监控梯子流量</title><updated>2023-04-10T16:12:18.829333+00:00</updated><content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/superleeyom/blog/main/img/20210131124723.png" alt="" /></p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/20" rel="alternate"/><category term="技术相关"/><published>2021-02-04T01:31:45+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/19</id><title>GitHub Actions 实战之监控梯子流量</title><updated>2023-04-17T02:12:36.067971+00:00</updated><content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/superleeyom/blog/main/img/20210131124723.png" alt="" /></p>
 <h2>起因</h2>
 <p>最近也开通了 Netflix，Netflix 其实挺费流量的，为了防止梯子的流量超标，所以打算借助 Github Actions + telegram 做一个简单的监控，整体的思路其实很简单，没啥太大的难度，就是模拟梯子服务网站的登录，然后爬取页面的流量汇总数据，然后每天 9:30 将流量的使用情况发送到 telegram，同时如果可使用的流量少于 20% 的时候，推送报警到 telegram，代码目前放到了 github 上 <a href="https://github.com/superleeyom/proxy-traffic-monitor">proxy-traffic-monitor</a>，实现细节就不讲了，代码比较简单，直接看代码就行。</p>
 <h2>开发环境</h2>
@@ -3492,7 +3505,7 @@ loginRequest.setProxy(proxy);
 </ul>
 <h2>声明</h2>
 <p>本源码只用于学习和交流，禁止用于商业目的。</p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/19" rel="alternate"/><category term="技术相关"/><published>2021-02-01T06:22:00+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/18</id><title>咕咚和keep跑步数据导入Nike Run Club</title><updated>2023-04-10T16:12:18.918487+00:00</updated><content type="html"><![CDATA[<p>起初是 <a href="https://github.com/yihong0618">yihong</a> 在v站推广他的开源跑步项目 <a href="https://github.com/yihong0618/running_page">running_page</a>，我那天在v站刷帖无无意看到了，就点进去了解了下，发现确实挺不错的项目，可以抓取各个平台的跑步数据，汇总聚合在一起，生成一个精美的跑步主页。后面通过 <code>twitter</code> 联系上了 yihong，yihong 是个非常热情，乐于助人的人，在他的帮助下，我成功了拿到了咕咚和 keep 上的跑步数据，并且在他的安利下，加上本身实在是受不了国内运动软件上各种广告，正式从 keep 换到了 <code>Nike Run Club</code>（后面简称 nrc）。</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/19" rel="alternate"/><category term="技术相关"/><published>2021-02-01T06:22:00+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/18</id><title>咕咚和keep跑步数据导入Nike Run Club</title><updated>2023-04-17T02:12:36.201847+00:00</updated><content type="html"><![CDATA[<p>起初是 <a href="https://github.com/yihong0618">yihong</a> 在v站推广他的开源跑步项目 <a href="https://github.com/yihong0618/running_page">running_page</a>，我那天在v站刷帖无无意看到了，就点进去了解了下，发现确实挺不错的项目，可以抓取各个平台的跑步数据，汇总聚合在一起，生成一个精美的跑步主页。后面通过 <code>twitter</code> 联系上了 yihong，yihong 是个非常热情，乐于助人的人，在他的帮助下，我成功了拿到了咕咚和 keep 上的跑步数据，并且在他的安利下，加上本身实在是受不了国内运动软件上各种广告，正式从 keep 换到了 <code>Nike Run Club</code>（后面简称 nrc）。</p>
 <p>切换到 nrc 后，之前其实我有折腾过想把之前在咕咚和 keep 上的数据导入到 nrc，毕竟积累了好几千公里的跑量，放弃掉实在太可惜。后面通过 yihong 的提供的思路，可以尝试将咕咚、keep 的跑步数据导出 <a href="https://zh.wikipedia.org/wiki/GPX">gpx</a>，然后再把 gpx 导入到类似
 <code>Garmin Connect</code> 等平台，然后在 nrc 上与佳明进行绑定，通过曲线救国，就可以将数据导入进 nrc。</p>
 <blockquote>
@@ -3539,7 +3552,7 @@ loginRequest.setProxy(proxy);
 <li>我的跑步主页：<a href="https://running.leeyom.top/">https://running.leeyom.top/</a></li>
 <li>我的 <code>Nike Run Club</code> id：<code>635709492@qq.com</code>，欢迎互相关注鼓励</li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/18" rel="alternate"/><category term="乱写一通"/><published>2021-01-27T08:31:57+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/17</id><title>redis大key内存分析</title><updated>2023-04-10T16:12:19.010792+00:00</updated><content type="html"><![CDATA[<p>最近 redis 的内存占用比较高，需要分析下哪些 key 内存占用率比较高，所以整理下分析的思路和笔记。</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/18" rel="alternate"/><category term="乱写一通"/><published>2021-01-27T08:31:57+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/17</id><title>redis大key内存分析</title><updated>2023-04-17T02:12:36.341640+00:00</updated><content type="html"><![CDATA[<p>最近 redis 的内存占用比较高，需要分析下哪些 key 内存占用率比较高，所以整理下分析的思路和笔记。</p>
 <h2>bigkeys</h2>
 <p>使用 redis 自带的查询工具：</p>
 <pre><code>redis-cli -p 6379 -a 密码 --bigkeys
@@ -3688,7 +3701,7 @@ retail_biz_config_data:provider_product,486796
 <li><a href="https://www.cnblogs.com/aresxin/p/9014617.html">Redis内存分析方法</a></li>
 <li><a href="https://ylgrgyq.com/find-big-keys-on-redis.html">找到 Redis 上大量占用内存的 key</a></li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/17" rel="alternate"/><category term="技术相关"/><published>2021-01-19T02:49:56+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/16</id><title>主流分布式id方案总结</title><updated>2023-04-10T16:12:19.109089+00:00</updated><content type="html"><![CDATA[<p>在简单系统中，我们常常使用 db 的 id 自增方式来标识和保存数据，随着系统的复杂，数据的增多，分库分表成为了常见的方案，db 自增已无法满足要求。这时候全局唯一的 id 生成系统就派上了用场。当然这只是 id 生成其中的一种应用场景。</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/17" rel="alternate"/><category term="技术相关"/><published>2021-01-19T02:49:56+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/16</id><title>主流分布式id方案总结</title><updated>2023-04-17T02:12:36.490667+00:00</updated><content type="html"><![CDATA[<p>在简单系统中，我们常常使用 db 的 id 自增方式来标识和保存数据，随着系统的复杂，数据的增多，分库分表成为了常见的方案，db 自增已无法满足要求。这时候全局唯一的 id 生成系统就派上了用场。当然这只是 id 生成其中的一种应用场景。</p>
 <ol>
 <li>全局唯一的 id：无论怎样都不能重复，这是最基本的要求了</li>
 <li>高性能：基础服务尽可能耗时少，如果能够本地生成最好</li>
@@ -3848,7 +3861,7 @@ PRIMARY KEY(ID)
 <li><a href="http://www.machengyu.net/tech/2019/12/04/snowflake.html">这可能是讲雪花算法最全的文章</a></li>
 <li><a href="https://juejin.cn/post/6844903935296176141">大型互联网公司分布式ID方案总结</a></li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/16" rel="alternate"/><category term="技术相关"/><published>2021-01-10T08:15:02+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/15</id><title>常用linux进程查询命令</title><updated>2023-04-10T16:12:19.243302+00:00</updated><content type="html"><![CDATA[<h2>ps 命令详解</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/16" rel="alternate"/><category term="技术相关"/><published>2021-01-10T08:15:02+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/15</id><title>常用linux进程查询命令</title><updated>2023-04-17T02:12:36.685581+00:00</updated><content type="html"><![CDATA[<h2>ps 命令详解</h2>
 <p><a href="https://wangchujiang.com/linux-command/c/ps.html"><strong>ps命令详解</strong></a></p>
 <h2>根据进程名查询进程信息</h2>
 <pre><code class="language-sh">ps  -ef | grep {processName}
@@ -3889,7 +3902,7 @@ ps -eo pid,ppid,%mem,%cpu,cmd --sort=-%cpu | head
 # 查看最消耗内存的进程
 ps -eo pid,ppid,%mem,%cpu,cmd --sort=-%mem | head
 </code></pre>
-]]></content><link href="https://github.com/superleeyom/blog/issues/15" rel="alternate"/><category term="技术相关"/><published>2021-01-03T02:07:59+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/14</id><title>[笔记]失明症漫记</title><updated>2023-04-10T16:12:19.340243+00:00</updated><content type="html"><![CDATA[<p>最近看完了诺贝尔文学奖获得者葡萄牙作家萨拉马戈的《失明症漫记》，比较有意思的是，整书没有感叹号，引号等标题符号，就只有逗号，和句号。所以刚开始看的时候，还有点不太适应，有点怎么说呢，叫断片？后面慢慢习惯后，才发现，可能作者的意图是想让读者更能站在角色得角度审视全书。</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/15" rel="alternate"/><category term="技术相关"/><published>2021-01-03T02:07:59+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/14</id><title>[笔记]失明症漫记</title><updated>2023-04-17T02:12:36.813905+00:00</updated><content type="html"><![CDATA[<p>最近看完了诺贝尔文学奖获得者葡萄牙作家萨拉马戈的《失明症漫记》，比较有意思的是，整书没有感叹号，引号等标题符号，就只有逗号，和句号。所以刚开始看的时候，还有点不太适应，有点怎么说呢，叫断片？后面慢慢习惯后，才发现，可能作者的意图是想让读者更能站在角色得角度审视全书。</p>
 <p>这本书挺契合当前形势的，跟今年的武汉肺炎差不多，讲的是全世界的人都得了一种失明症，整个社会文明秩序崩塌的事情。</p>
 <p>整书让我比较印象深刻，当看到被关在精神病院的女人们，为了食物，答应那些盲人歹徒们的肮脏行为，心里非常气愤，在想女人们和他们的男人们为什么不奋起反抗，但是想想，在整个社会秩序文明崩塌的时候，人的本能，活下去才是唯一目的吧！在看到盲人中唯一能看的见的女人，医生的妻子，站起来反抗，拿着剪刀杀了盲人歹徒首领，真是看的让人拍手称快。书中非常让人心疼了就是医生的妻子了，全世界唯一一个能看得见的人，带着一群盲人，从恐怖的精神病院逃出来，在看到那种炼狱般的世界后，依然坚强的活着，给大家带来光明的希望。</p>
 <p>全书的最后那句：“我想我们没有失明，我想我们现在是盲人；能看得见的盲人；能看但又看不见的盲人。”，何尝不是啊？现如今，虽然我们生理上能看得见，但是灵魂和心里我们很多人都是盲人。如果有一天我们真的失明了，你有活下去的勇气吗？以下便是看书过程中一些比较印象深刻的句子：</p>
@@ -3940,7 +3953,7 @@ ps -eo pid,ppid,%mem,%cpu,cmd --sort=-%mem | head
 <p>我想我们没有失明，我想我们现在是盲人；能看得见的盲人；能看但又看不见的盲人。</p>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/14" rel="alternate"/><category term="读书笔记"/><published>2020-12-31T00:14:27+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/13</id><title>关于Redis缓存穿透、缓存雪崩、缓存击穿问题探究</title><updated>2023-04-10T16:12:19.438744+00:00</updated><content type="html"><![CDATA[<h2>缓存穿透</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/14" rel="alternate"/><category term="读书笔记"/><published>2020-12-31T00:14:27+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/13</id><title>关于Redis缓存穿透、缓存雪崩、缓存击穿问题探究</title><updated>2023-04-17T02:12:36.947349+00:00</updated><content type="html"><![CDATA[<h2>缓存穿透</h2>
 <p>拿一个不存在的 key 去查询数据，如果缓存里面查询不到，就会去数据库里面查询，如果有人恶意拿不存在的 key 疯狂请求，会把数据库压垮，这就是缓存穿透，下面用一段伪代码：</p>
 <pre><code class="language-java">List&lt;String&gt; cacheList = redis.get(key);
 if(CollUtil.isEmpty(cacheList)){
@@ -4017,7 +4030,7 @@ return cacheList;
 }
 </code></pre>
 <p>其实对于这些热点 key，最好还是有个独立的服务，去定时的刷新缓存，这样的话，很大的程度上可以避免这种问题。</p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/13" rel="alternate"/><category term="技术相关"/><published>2020-12-23T11:45:12+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/12</id><title>5分钟快速理解Redis的内存回收机制</title><updated>2023-04-10T16:12:19.588546+00:00</updated><content type="html"><![CDATA[<h2>设置键的生存时间</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/13" rel="alternate"/><category term="技术相关"/><published>2020-12-23T11:45:12+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/12</id><title>5分钟快速理解Redis的内存回收机制</title><updated>2023-04-17T02:12:37.078146+00:00</updated><content type="html"><![CDATA[<h2>设置键的生存时间</h2>
 <ul>
 <li><code>EXPIRE key seconds</code>：用于设置秒级精度的生存时间，它可以让键在指定的秒数之后自动被移除</li>
 <li><code>PEXPIRE key milliseconds</code>：用于设置毫秒级精度的生存时间，它可以让键在指定的毫秒数之后自动被移除</li>
@@ -4109,7 +4122,7 @@ PTTL key
 <li>《Redis使用手册》</li>
 <li>《Redis设计与实现》</li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/12" rel="alternate"/><category term="技术相关"/><published>2020-12-16T13:49:56+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/11</id><title>同一浏览器不同用户登录冲突问题探究</title><updated>2023-04-10T16:12:19.715901+00:00</updated><content type="html"><![CDATA[<h2>问题</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/12" rel="alternate"/><category term="技术相关"/><published>2020-12-16T13:49:56+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/11</id><title>同一浏览器不同用户登录冲突问题探究</title><updated>2023-04-17T02:12:37.216047+00:00</updated><content type="html"><![CDATA[<h2>问题</h2>
 <p>由于业务扩展问题，目前公司有 a 和 b 两个账号中心服务，分别对应的是运营端和服务商端，这两个账号系统的访问域名分别是<code>a.aqara.cn</code>和<code>b.aqara.cn</code>，其中 b 账号中心由其他的团队负责开发，用户登录成功后，会返回用户的信息（<code>userInfo</code>）和访问令牌（<code>token</code>），前端会将他们缓存在客户端的 <code>Cookies</code>里面，由于共用同一个二级域名（<code>.aqara.cn</code>），前端<code>Cookies</code> 里面缓存的数据是共用的。</p>
 <p>就会存在这种问题：同一个浏览器，用户在标签 A 登录A用户，然后又重新打开标签页 B，登录用户 B，这样就会导致，第二个用户会把第一个用户的信息覆盖掉，但是此时用户无感知，<code>Cookies</code> 里面存储的令牌和用户信息就会被覆盖掉。这样的话假如请求的数据（比如查看个人信息）是基于 token 拿用户信息的话，由于后台的网关层，有把 token 作为键，用户信息作为 value，缓存用户用户信息，有时候就会导致 A 用户拿到 B 用户的数据。如果恰好 a 用户和 b 用户都有访问某接口的权限，就会造成，怎么我操作后，显示的操作人确实另外一个人的名字。</p>
 <h2>解决方案</h2>
@@ -4188,7 +4201,7 @@ if(!userIdFromToen.equal(userId)){
 <li><a href="https://segmentfault.com/q/1010000011501894">java 怎么让同一浏览器登录多个用户但是不共用session？</a></li>
 <li><a href="https://blog.by24.cn/archives/about-session.html">有关 Session 的那些事儿</a></li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/11" rel="alternate"/><category term="技术相关"/><published>2020-12-13T03:36:15+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/10</id><title>GitHub Actions 实战之Chrome书签同步</title><updated>2023-04-10T16:12:19.812747+00:00</updated><content type="html"><![CDATA[<p>之前对 <code>GitHub Actions</code> 不是特别熟悉，以为它适合于跑类似于脚本语言 <code>Python</code>，不太适合与 <code>Java</code> 这类需要借助于 JVM 的语言，恰好最近有一个简单的想法就是想把 <code>Chrome</code> 书签同步到 <code>Github</code>，并将书签生成 <code>README.md</code> 文件，就尝试下用 <code>GitHub Actions</code> 去构建 <code>Java</code>，实际验证了其实是可行的，<code>GitHub Actions</code> 完全可以跑 <code>Java</code>做一些自动化操作。</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/11" rel="alternate"/><category term="技术相关"/><published>2020-12-13T03:36:15+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/10</id><title>GitHub Actions 实战之Chrome书签同步</title><updated>2023-04-17T02:12:37.356261+00:00</updated><content type="html"><![CDATA[<p>之前对 <code>GitHub Actions</code> 不是特别熟悉，以为它适合于跑类似于脚本语言 <code>Python</code>，不太适合与 <code>Java</code> 这类需要借助于 JVM 的语言，恰好最近有一个简单的想法就是想把 <code>Chrome</code> 书签同步到 <code>Github</code>，并将书签生成 <code>README.md</code> 文件，就尝试下用 <code>GitHub Actions</code> 去构建 <code>Java</code>，实际验证了其实是可行的，<code>GitHub Actions</code> 完全可以跑 <code>Java</code>做一些自动化操作。</p>
 <h2>什么是 GitHub Actions</h2>
 <p>官网的定义就是：</p>
 <blockquote>
@@ -4323,7 +4336,7 @@ private static final String README_PATH = &quot;README.md&quot;;
 <li><a href="https://www.cnblogs.com/gongkiro/p/13221739.html">Chrome 书签同步到GitHub</a></li>
 <li><a href="https://github.com/Steppschuh/Java-Markdown-Generator">Java-Markdown-Generator</a></li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/10" rel="alternate"/><category term="技术相关"/><published>2020-12-07T02:12:13+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/9</id><title>5分钟快速理解Redis的持久化</title><updated>2023-04-10T16:12:19.912808+00:00</updated><content type="html"><![CDATA[<p>Redis 的持久化指的是把内存中存储的数据以文件形式存储到硬盘上，而服务器也可以根据这些文件在系统停机之后实施数据恢复，让服务器的数据库重新回到停机之前的状态。为了满足不同的持久化需求，Redis 提供了<code>RDB持久化</code>、<code>AOF持久化</code>和<code>RDB-AOF混合持久化</code>等多种持久化方式以供用户选择。如果用户有需要，也可以完全关闭持久化功能，让服务器处于<code>无持久化状态</code>。</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/10" rel="alternate"/><category term="技术相关"/><published>2020-12-07T02:12:13+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/9</id><title>5分钟快速理解Redis的持久化</title><updated>2023-04-17T02:12:37.501407+00:00</updated><content type="html"><![CDATA[<p>Redis 的持久化指的是把内存中存储的数据以文件形式存储到硬盘上，而服务器也可以根据这些文件在系统停机之后实施数据恢复，让服务器的数据库重新回到停机之前的状态。为了满足不同的持久化需求，Redis 提供了<code>RDB持久化</code>、<code>AOF持久化</code>和<code>RDB-AOF混合持久化</code>等多种持久化方式以供用户选择。如果用户有需要，也可以完全关闭持久化功能，让服务器处于<code>无持久化状态</code>。</p>
 <h2>RDB持久化</h2>
 <p><code>RDB</code> 的全称是 <code>Redis DataBase</code>，<code>RDB持久化</code>是 Redis 默认使用的持久化功能，通过创建以<code>.rdb</code>后缀结尾的二进制文件，该文件包含了服务器在各个数据库中存储的键值对数据等信息。Redis 提供了三种创建 RDB 文件的方法，分别是：手动执行<code>SAVE命令</code>、手动执行<code>BGSAVE命令</code>、通过配置选项自动创建等三种方式。</p>
 <p>那 RDB 文件的结构是咋样的呢？它由如下几部分组成：</p>
@@ -4543,7 +4556,7 @@ save 3600 1
 <p>如果用户给定的是 <code>save</code> 选项，那么无论服务器是否启用了持久化功能，服务器都会在关闭之前执行一次持久化操作。如果用户给定的是 <code>nosave </code>选项，那么服务器将不执行持久化操作，直接关闭服务器。在这种情况下，如果服务器在关闭之前曾经修改过数据库，那么它将丢失那些尚未保存的数据。</p>
 <h2>总结</h2>
 <p>总的来说，在数据持久化这个问题上，<strong>Redis 4.0 及之后版本的使用者都应该优先使用 RDB-AOF 混合持久化；对于 Redis 4.0 之前版本的使用者，因为 RDB 持久化更接近传统意义上的数据备份功能，而 AOF 持久化则更接近于传统意义上的数据持久化功能，所以如果用户不知道自己具体应该使用哪种持久化功能，那么可以优先选用 AOF 持久化作为数据持久化手段，并将 RDB 持久化用作辅助的数据备份手段。</strong></p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/9" rel="alternate"/><category term="技术相关"/><published>2020-12-02T16:21:25+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/8</id><title>基于Docker实现nginx-keepalived双机热备机制</title><updated>2023-04-10T16:12:20.031289+00:00</updated><content type="html"><![CDATA[<h2>基本概念</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/9" rel="alternate"/><category term="技术相关"/><published>2020-12-02T16:21:25+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/8</id><title>基于Docker实现nginx-keepalived双机热备机制</title><updated>2023-04-17T02:12:37.675057+00:00</updated><content type="html"><![CDATA[<h2>基本概念</h2>
 <h3>LVS</h3>
 <p>LVS 是一个开源的软件，可以实现<strong>传输层四层负载均衡</strong>。LVS 是 Linux Virtual Server 的缩写，意思是 Linux 虚拟服务器。目前有三种 IP 负载均衡技术（VS/NAT、VS/TUN和VS/DR）；八种调度算法：轮询、加权轮询、源地址散列、目标地址散列、最小连接数、加权最少连接数、最短期望延迟、最少队列调度。</p>
 <ul>
@@ -4809,7 +4822,7 @@ systemctl restart keepalived.service
 <li><code>systemctl stop keepalived.service</code>：停止</li>
 <li><code>systemctl status keepalived.service </code>：查看服务状态</li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/8" rel="alternate"/><category term="技术相关"/><published>2020-11-23T03:03:49+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/7</id><title>[笔记]睡眠革命</title><updated>2023-04-10T16:12:20.149890+00:00</updated><content type="html"><![CDATA[<h2>睡眠革命：如何让你的睡眠更高效</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/8" rel="alternate"/><category term="技术相关"/><published>2020-11-23T03:03:49+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/7</id><title>[笔记]睡眠革命</title><updated>2023-04-17T02:12:37.813086+00:00</updated><content type="html"><![CDATA[<h2>睡眠革命：如何让你的睡眠更高效</h2>
 <blockquote>
 <p>作者：尼克·利特尔黑尔斯；数量：13个笔记；时间：2020-11-22 11:18:11</p>
 </blockquote>
@@ -4857,7 +4870,7 @@ systemctl restart keepalived.service
 </ul>
 </li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/7" rel="alternate"/><category term="读书笔记"/><published>2020-11-22T03:22:50+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/6</id><title>Hackintosh黑苹果折腾之旅</title><updated>2023-04-10T16:12:20.249007+00:00</updated><content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/superleeyom/blog/main/img/iShot20201115.png" alt="" /></p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/7" rel="alternate"/><category term="读书笔记"/><published>2020-11-22T03:22:50+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/6</id><title>Hackintosh黑苹果折腾之旅</title><updated>2023-04-17T02:12:37.941767+00:00</updated><content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/superleeyom/blog/main/img/iShot20201115.png" alt="" /></p>
 <h2>硬件配置</h2>
 <p>其实我这台黑苹果，今年年初三月份的时候就装好了，周末趁着有空，把系统升级到了 <code>macOS Big Sur</code> ，在此总结下自己的整个的安装的一些心得。</p>
 <p>我这台黑苹果主机的整体配置清单如下：</p>
@@ -4915,7 +4928,7 @@ systemctl restart keepalived.service
 <li><a href="https://mackie100projects.altervista.org/download-opencore-configurator/">opencore-configurator</a></li>
 <li><a href="https://github.com/headkaze/Hackintool/releases">Hackintool</a></li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/6" rel="alternate"/><category term="乱写一通"/><published>2020-11-15T08:15:07+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/5</id><title>nginx负载均衡原理之ip_hash哈希算法探究</title><updated>2023-04-10T16:12:20.382048+00:00</updated><content type="html"><![CDATA[<p>关于 <code>ip_hash</code> <code>nginx</code> 官网是这样定义的：</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/6" rel="alternate"/><category term="乱写一通"/><published>2020-11-15T08:15:07+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/5</id><title>nginx负载均衡原理之ip_hash哈希算法探究</title><updated>2023-04-17T02:12:38.117258+00:00</updated><content type="html"><![CDATA[<p>关于 <code>ip_hash</code> <code>nginx</code> 官网是这样定义的：</p>
 <blockquote>
 <p>Specifies that a group should use a load balancing method where requests are distributed between servers based on client IP addresses. The first three octets of the client IPv4 address, or the entire IPv6 address, are used as a hashing key. The method ensures that requests from the same client will always be passed to the same server except when this server is unavailable. In the latter case client requests will be passed to another server. Most probably, it will always be the same server as well.</p>
 </blockquote>
@@ -4951,7 +4964,7 @@ systemctl restart keepalived.service
 <p>如上图，圆环上有 <code>0-2^32-1</code> 个节点，每个节点，按顺时针方向排列递增，用户的请求 ip，通过哈希算法，会落在圆环上的某个节点上。按顺时针方向，用户1、用户2会访问节点1，用户3、用户4会访问节点2，用户5、用户6会访问节点3，用户7访问到节点4。假如此时删除了节点3，那么原本的用户5和用户6的请求，则会落到节点4上，其他用户的访问均不会受到影响，只会有用户5和用户6的会话信息会丢失，不会造成全局的变动。</p>
 <p><img src="https://raw.githubusercontent.com/superleeyom/blog/main/img/iShot2020-11-05%E4%B8%8B%E5%8D%8802.05.03.png" alt="" /></p>
 <p>另外还有一个优点，如果发现节点1访问量很大，负载高于其他节点，这就说明节点1存储的数据是热点数据。这时候，为了减少节点1的负载，我们可以在热点数据位置再加入一个node，用来分担热点数据的压力。</p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/5" rel="alternate"/><category term="技术相关"/><published>2020-11-05T06:24:49+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/4</id><title>nginx基础指令及初始配置解析</title><updated>2023-04-10T16:12:20.490391+00:00</updated><content type="html"><![CDATA[<h2>nginx 常用命令</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/5" rel="alternate"/><category term="技术相关"/><published>2020-11-05T06:24:49+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/4</id><title>nginx基础指令及初始配置解析</title><updated>2023-04-17T02:12:38.257595+00:00</updated><content type="html"><![CDATA[<h2>nginx 常用命令</h2>
 <ul>
 <li>
 <p><code>./nginx -s stop</code> ：强制停止nginx</p>
@@ -5246,7 +5259,7 @@ proxy_cache_path /usr/local/nginx/upstream_cache keys_zone=mycache:5m max_size=1
 </code></pre>
 </li>
 </ol>
-]]></content><link href="https://github.com/superleeyom/blog/issues/4" rel="alternate"/><category term="技术相关"/><published>2020-10-20T01:39:07+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/3</id><title>白话解说之 BIO、NIO、AIO、异步阻塞的区别</title><updated>2023-04-10T16:12:20.611607+00:00</updated><content type="html"><![CDATA[<h2>白话解说</h2>
+]]></content><link href="https://github.com/superleeyom/blog/issues/4" rel="alternate"/><category term="技术相关"/><published>2020-10-20T01:39:07+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/3</id><title>白话解说之 BIO、NIO、AIO、异步阻塞的区别</title><updated>2023-04-17T02:12:38.420512+00:00</updated><content type="html"><![CDATA[<h2>白话解说</h2>
 <p>首先明白这个几个简称的含义：</p>
 <ul>
 <li><strong>BIO（Blocking IO）</strong>：同步阻塞</li>
@@ -5270,7 +5283,7 @@ proxy_cache_path /usr/local/nginx/upstream_cache keys_zone=mycache:5m max_size=1
 <p>总结就是：异步的优势显而易见，大大优化用户体验， 非阻塞使得系统资源开销远远小于阻塞模式，因为系统不需要创建新的进程(或线程)，大大地节省了系统资源。</p>
 <h2>专业解说</h2>
 <p>发现一篇解说的很清楚的文章：<a href="https://www.cnblogs.com/javaguide/p/io.html">《常见的IO模型有哪些？Java中的BIO、NIO、AIO 有啥区别？》</a></p>
-]]></content><link href="https://github.com/superleeyom/blog/issues/3" rel="alternate"/><category term="技术相关"/><published>2020-10-17T09:19:18+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/2</id><title>Java8函数式编程中比较实用的操作语法</title><updated>2023-04-10T16:12:20.715974+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/22115219/95572264-483a9580-0a5c-11eb-8cc7-0f908e997cc0.png" alt="java8-stream" /></p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/3" rel="alternate"/><category term="技术相关"/><published>2020-10-17T09:19:18+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/2</id><title>Java8函数式编程中比较实用的操作语法</title><updated>2023-04-17T02:12:38.563921+00:00</updated><content type="html"><![CDATA[<p><img src="https://user-images.githubusercontent.com/22115219/95572264-483a9580-0a5c-11eb-8cc7-0f908e997cc0.png" alt="java8-stream" /></p>
 <h2>分组（一对多）</h2>
 <p>假如有如下的一个数据结构：</p>
 <pre><code class="language-json">[
@@ -5447,7 +5460,7 @@ System.out.println(citiesCommaSeparated);
 <ul>
 <li><a href="https://juejin.im/post/6844903830254010381">一文带你玩转 Java8 Stream 流，从此操作集合 So Easy</a></li>
 </ul>
-]]></content><link href="https://github.com/superleeyom/blog/issues/2" rel="alternate"/><category term="技术相关"/><published>2020-10-09T10:22:49+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/1</id><title>Java泛型的回顾之旅</title><updated>2023-04-10T16:12:20.832123+00:00</updated><content type="html"><![CDATA[<p>“泛型”的字面意思就是广泛的类型。类、接口和方法代码可以应用于非常广泛的类型，代码与它们能够操作的数据类型不再绑定在一起，同一套代码可以用于多种数据类型，这样，不仅可以复用代码，降低耦合，而且可以提高代码的可读性和安全性。在实际开发中，经常会使用到泛型，但语法非常令人费解，而且容易混淆对于其中的一些细节的地方，所以翻书去回顾下。</p>
+]]></content><link href="https://github.com/superleeyom/blog/issues/2" rel="alternate"/><category term="技术相关"/><published>2020-10-09T10:22:49+00:00</published></entry><entry><id>https://github.com/superleeyom/blog/issues/1</id><title>Java泛型的回顾之旅</title><updated>2023-04-17T02:12:38.686948+00:00</updated><content type="html"><![CDATA[<p>“泛型”的字面意思就是广泛的类型。类、接口和方法代码可以应用于非常广泛的类型，代码与它们能够操作的数据类型不再绑定在一起，同一套代码可以用于多种数据类型，这样，不仅可以复用代码，降低耦合，而且可以提高代码的可读性和安全性。在实际开发中，经常会使用到泛型，但语法非常令人费解，而且容易混淆对于其中的一些细节的地方，所以翻书去回顾下。</p>
 <h2>泛型类</h2>
 <p>首先看一段简单代码：</p>
 <pre><code class="language-java">public class Pair&lt;T&gt; {
