@@ -165,3 +165,9 @@ index.html 里面的`repository: 'blog', ` 这个填你的issues的仓库名称 
 > 请教一下，如果要增加一个元素，应该如何操作呢？工作量大吗？ ![image](https://user-images.githubusercontent.com/73227570/190609213-ea3c9915-0387-41e9-bcdf-88c2b4c44b47.png)
 
 这个比较简单，你可以加我的电报 @super_leeyom 我可以指导下
+
+---
+
+> 这个mirror网站打不开了，是不是无法获取hash了 ![2023-09-25 17 41 11 mirror am0200 com acbe19c6ee72](https://user-images.githubusercontent.com/61244668/270301030-cb471a4c-5b7c-45ca-8bff-beebd9dfe791.jpg)
+
+怎么感觉像是你的网络有问题啊，你检查下网络是否通畅 @zqisme 
