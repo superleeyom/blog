@@ -7,6 +7,7 @@ import markdown
 from feedgen.feed import FeedGenerator
 from github import Github
 from lxml.etree import CDATA
+from marko.ext.gfm import gfm as marko
 
 MD_HEAD = """**<p align="center">[Leeyom's Blog](https://blog.leeyom.top)</p>**
 ====
