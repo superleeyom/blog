@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 import argparse
 import os
+import re
 
-from marko.ext.gfm import gfm as marko
-from github import Github
+import markdown
 from feedgen.feed import FeedGenerator
+from github import Github
 from lxml.etree import CDATA
 
 MD_HEAD = """**<p align="center">[Leeyom's Blog](https://blog.leeyom.top)</p>**
@@ -41,10 +42,10 @@ def _valid_xml_char_ordinal(c):
     codepoint = ord(c)
     # conditions ordered by presumed frequency
     return (
-            0x20 <= codepoint <= 0xD7FF
-            or codepoint in (0x9, 0xA, 0xD)
-            or 0xE000 <= codepoint <= 0xFFFD
-            or 0x10000 <= codepoint <= 0x10FFFF
+        0x20 <= codepoint <= 0xD7FF
+        or codepoint in (0x9, 0xA, 0xD)
+        or 0xE000 <= codepoint <= 0xFFFD
+        or 0x10000 <= codepoint <= 0x10FFFF
     )
 
 
@@ -133,20 +134,33 @@ def add_md_recent(repo, md, me, limit=5):
                     count += 1
                     if count >= limit:
                         break
-        except:
-            return
+        except Exception as e:
+            print(str(e))
 
 
 def add_md_header(md, repo_name):
     with open(md, "w", encoding="utf-8") as md:
         md.write(MD_HEAD.format(repo_name=repo_name))
+        md.write("\n")
 
 
 def add_md_label(repo, md, me):
     labels = get_repo_labels(repo)
+
+    # sort lables by description info if it exists, otherwise sort by name,
+    # for example, we can let the description start with a number (1#Java, 2#Docker, 3#K8s, etc.)
+    labels = sorted(
+        labels,
+        key=lambda x: (
+            x.description is None,
+            x.description == "",
+            x.description,
+            x.name,
+        ),
+    )
+
     with open(md, "a+", encoding="utf-8") as md:
         for label in labels:
-
             # we don't need add top label again
             if label.name in IGNORE_LABELS:
                 continue
@@ -231,16 +245,16 @@ def main(token, repo_name, issue_number=None, dir_name=BACKUP_DIR):
 
 def save_issue(issue, me, dir_name=BACKUP_DIR):
     md_name = os.path.join(
-        dir_name, f"{issue.number}_{issue.title.replace(' ', '.')}.md"
+        dir_name, f"{issue.number}_{issue.title.replace('/', '-').replace(' ', '.')}.md"
     )
     with open(md_name, "w") as f:
         f.write(f"# [{issue.title}]({issue.html_url})\n\n")
-        f.write(issue.body)
+        f.write(issue.body or "")
         if issue.comments:
             for c in issue.get_comments():
                 if is_me(c, me):
                     f.write("\n\n---\n\n")
-                    f.write(c.body)
+                    f.write(c.body or "")
 
 
 if __name__ == "__main__":
