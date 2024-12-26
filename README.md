@@ -12,23 +12,24 @@
 - RSS：[RSS Feed](https://raw.githubusercontent.com/superleeyom/blog/master/feed.xml)
 
 ## 最近更新
+- [我的 Apple 设备](https://github.com/superleeyom/blog/issues/61)--2024-12-26
 - [2024 装修开支清单](https://github.com/superleeyom/blog/issues/60)--2024-12-17
 - [8款高效又好用的安卓 TV App 推荐](https://github.com/superleeyom/blog/issues/59)--2024-12-13
 - [2024香港银行卡办卡之旅](https://github.com/superleeyom/blog/issues/58)--2024-02-25
 - [2024年个人周报](https://github.com/superleeyom/blog/issues/57)--2024-01-08
-- [Postman如何配置动态端口和IP](https://github.com/superleeyom/blog/issues/56)--2023-12-14
 ## 个人周报
 - [2024年个人周报](https://github.com/superleeyom/blog/issues/57)--2024-01-08
 - [2023年个人周报](https://github.com/superleeyom/blog/issues/52)--2023-01-03
 - [2022年个人周报](https://github.com/superleeyom/blog/issues/43)--2022-01-17
 ## 乱写一通
+- [我的 Apple 设备](https://github.com/superleeyom/blog/issues/61)--2024-12-26
 - [2024 装修开支清单](https://github.com/superleeyom/blog/issues/60)--2024-12-17
 - [8款高效又好用的安卓 TV App 推荐](https://github.com/superleeyom/blog/issues/59)--2024-12-13
 - [2024香港银行卡办卡之旅](https://github.com/superleeyom/blog/issues/58)--2024-02-25
 - [2023上海之旅](https://github.com/superleeyom/blog/issues/55)--2023-11-21
-- [我的跑步数据流](https://github.com/superleeyom/blog/issues/54)--2023-02-18
 <details><summary>显示更多</summary>
 
+- [我的跑步数据流](https://github.com/superleeyom/blog/issues/54)--2023-02-18
 - [2022年终总结之我的买房经历](https://github.com/superleeyom/blog/issues/53)--2023-01-08
 - [我为什么不能放弃跑步](https://github.com/superleeyom/blog/issues/48)--2022-03-27
 - [我的2021年跑步报告](https://github.com/superleeyom/blog/issues/39)--2022-01-01
