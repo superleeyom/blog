@@ -171,3 +171,7 @@ index.html 里面的`repository: 'blog', ` 这个填你的issues的仓库名称 
 > 这个mirror网站打不开了，是不是无法获取hash了 ![2023-09-25 17 41 11 mirror am0200 com acbe19c6ee72](https://user-images.githubusercontent.com/61244668/270301030-cb471a4c-5b7c-45ca-8bff-beebd9dfe791.jpg)
 
 怎么感觉像是你的网络有问题啊，你检查下网络是否通畅 @zqisme 
+
+---
+
+因为后面更新过一版了，现在只需要配置 github的token就行了，不需要配置这两个了，你可以忽略掉 @briteming 
