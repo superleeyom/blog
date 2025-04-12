@@ -17,11 +17,9 @@
 - [我的 Apple 设备](https://github.com/superleeyom/blog/issues/61)--2024-12-26
 - [2024 装修开支清单](https://github.com/superleeyom/blog/issues/60)--2024-12-17
 - [8款高效又好用的安卓 TV App 推荐](https://github.com/superleeyom/blog/issues/59)--2024-12-13
-## 个人周报
 - [2024年个人周报](https://github.com/superleeyom/blog/issues/57)--2024-01-08
 - [2023年个人周报](https://github.com/superleeyom/blog/issues/52)--2023-01-03
 - [2022年个人周报](https://github.com/superleeyom/blog/issues/43)--2022-01-17
-## 乱写一通
 - [iPad Pro秒变Mac mini显示器教程](https://github.com/superleeyom/blog/issues/63)--2025-03-11
 - [我的老婆](https://github.com/superleeyom/blog/issues/62)--2025-01-03
 - [我的 Apple 设备](https://github.com/superleeyom/blog/issues/61)--2024-12-26
@@ -43,7 +41,6 @@
 - [Hackintosh黑苹果折腾之旅](https://github.com/superleeyom/blog/issues/6)--2020-11-15
 </details>
 
-## 技术相关
 - [Postman如何配置动态端口和IP](https://github.com/superleeyom/blog/issues/56)--2023-12-14
 - [解决 IDEA 因为 Clash 代理问题引起的疑难杂症](https://github.com/superleeyom/blog/issues/51)--2022-09-28
 - [技术周刊分享](https://github.com/superleeyom/blog/issues/42)--2022-01-13
@@ -77,7 +74,6 @@
 - [Java泛型的回顾之旅](https://github.com/superleeyom/blog/issues/1)--2020-10-09
 </details>
 
-## 读书笔记
 - [[笔记]神的九十亿个名字](https://github.com/superleeyom/blog/issues/50)--2022-06-25
 - [[笔记]盐糖脂：食品巨头是如何操纵我们的](https://github.com/superleeyom/blog/issues/49)--2022-04-02
 - [[笔记]精力管理](https://github.com/superleeyom/blog/issues/44)--2022-01-17
